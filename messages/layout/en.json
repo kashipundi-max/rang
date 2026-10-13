@@ -1,0 +1,101 @@
+{
+  "Header": {
+    "home": "Home",
+    "products": "Challenges",
+    "resources": "FAQ",
+    "features": "Rules",
+    "pricing": "Accounts",
+    "rules": "Rules",
+    "video": "Video",
+    "blog": "Blog",
+    "testimonials": "Payouts",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "getStarted": "Start Challenge",
+    "signUp": "Register",
+    "login": "Login"
+  },
+  "Footer": {
+    "description": "Range4ex provides simulated trading challenges and skill-based evaluation programs for educational purposes.",
+    "sections": {
+      "product": "Evaluation",
+      "company": "Firm",
+      "resources": "Trading Resources",
+      "legal": "Legal"
+    },
+    "links": {
+      "features": "Trading Rules",
+      "pricing": "Trading Challenges",
+      "templates": "Payout Proofs",
+      "integrations": "Platforms",
+      "about": "About Us",
+      "blog": "Market News",
+      "careers": "We Are Hiring",
+      "contact": "Support",
+      "documentation": "Help Center",
+      "page404": "404 Error",
+      "page500": "500 Error",
+      "page401": "401 Error",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "cookiePolicy": "Cookie Policy",
+      "gdpr": "GDPR Risk Disclosure"
+    },
+    "social": {
+      "twitter": "Twitter",
+      "github": "Discord Community",
+      "linkedin": "LinkedIn",
+      "email": "Email Support"
+    },
+    "newsletter": {
+      "title": "Get Daily Market Setups",
+      "description": "Receive evaluation tips, rulebook updates, and Range4ex trading challenge news.",
+      "placeholder": "Enter your trader email",
+      "subscribe": "Join Newsletter"
+    },
+    "copyright": "© {year} Range4ex. All rights reserved.",
+    "madeWith": "Built with ❤️ for",
+    "cta": {
+      "love": "Ready to test your trading skills?",
+      "getSource": "Choose a simulated trading evaluation and test your skills under clear program rules.",
+      "buyTemplate": "Explore Challenges"
+    }
+  },
+  "Common": {
+    "learnMore": "Rules Overview",
+    "viewAll": "View Challenges",
+    "contactUs": "Contact Support",
+    "readMore": "Read Guidelines",
+    "loading": "Executing trade...",
+    "error": "Order Rejected",
+    "success": "Order Filled"
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "Oops! The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "ServerErrorPage": {
+    "title": "Server Error",
+    "description": "Oops! Something went wrong on our end. Please try again later.",
+    "backHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "UnauthorizedPage": {
+    "title": "Unauthorized",
+    "description": "You don't have permission to access this page. Please sign in or contact support.",
+    "backHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "ThemeColorSwitcher": {
+    "title": "Terminal Skin",
+    "description": "Choose your dashboard theme color",
+    "current": "Active Skin",
+    "performanceMode": "Latency Optimization Mode",
+    "performanceDescription": "Reduces visual rendering latency during news events",
+    "demoWarning": "Simulated trading dashboards represent demo environment execution.",
+    "changeTheme": "Change dashboard skin",
+    "selectTheme": "Apply theme {theme}"
+  }
+}

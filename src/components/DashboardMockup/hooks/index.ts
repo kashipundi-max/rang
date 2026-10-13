@@ -1,0 +1,1 @@
+export { useDashboardScale } from "./useDashboardScale";

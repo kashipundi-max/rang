@@ -1,0 +1,101 @@
+{
+  "Header": {
+    "home": "Αρχική",
+    "products": "Τροποποιήσεις",
+    "resources": "FAQ",
+    "features": "Κανόνες",
+    "pricing": "Λογαριασμοί",
+    "rules": "Κανόνες",
+    "blog": "Ιστολόγιο",
+    "testimonials": "Πληρωμές",
+    "faq": "FAQ",
+    "contact": "Επικοινωνία",
+    "getStarted": "Έναρξη Τεστ",
+    "signUp": "Εγγραφή",
+    "video": "Video",
+    "login": "Σύνδεση"
+  },
+  "Footer": {
+    "description": "Διαπραγματευτείτε το κεφάλαιό μας και κρατήστε έως και το 90% των κερδών.",
+    "sections": {
+      "product": "Αξιολόγηση",
+      "company": "Εταιρεία",
+      "resources": "Πόροι",
+      "legal": "Νομικά"
+    },
+    "links": {
+      "features": "Χαρακτηριστικά",
+      "pricing": "Τιμολόγηση",
+      "templates": "Πρότυπα",
+      "integrations": "Συνδέσεις",
+      "about": "Σχετικά",
+      "blog": "Ιστολόγιο",
+      "careers": "Καριέρα",
+      "contact": "Επικοινωνία",
+      "documentation": "Τεκμηρίωση",
+      "page404": "Σελίδα 404",
+      "page500": "Σελίδα 500",
+      "page401": "Σελίδα 401",
+      "privacyPolicy": "Πολιτική Απορρήτου",
+      "termsOfService": "Όροι Χρήσης",
+      "cookiePolicy": "Πολιτική Cookies",
+      "gdpr": "GDPR"
+    },
+    "social": {
+      "twitter": "Twitter",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "email": "Email"
+    },
+    "newsletter": {
+      "title": "Μείνετε Ενημερωμένοι",
+      "description": "Λάβετε τις τελευταίες ενημερώσεις, πρότυπα και σχεδιαστικές ιδέες.",
+      "placeholder": "Εισαγάγετε το email σας",
+      "subscribe": "Εγγραφή"
+    },
+    "copyright": "© {year} Range4ex. Με επιφύλαξη παντός δικαιώματος.",
+    "madeWith": "Φτιαγμένο με ❤️ από",
+    "cta": {
+      "love": "🚀 Σας αρέσει αυτό το πρότυπο;",
+      "getSource": "Αποκτήστε τον πλήρη κώδικα και ξεκινήστε να χτίζετε σήμερα!",
+      "buyTemplate": "Αγοράστε αυτό το πρότυπο"
+    }
+  },
+  "Common": {
+    "learnMore": "Μάθετε περισσότερα",
+    "viewAll": "Προβολή όλων",
+    "contactUs": "Επικοινωνήστε μαζί μας",
+    "readMore": "Διαβάστε περισσότερα",
+    "loading": "Φόρτωση...",
+    "error": "Σφάλμα",
+    "success": "Επιτυχία"
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "Oops! The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "ServerErrorPage": {
+    "title": "Server Error",
+    "description": "Oops! Something went wrong on our end. Please try again later.",
+    "backHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "UnauthorizedPage": {
+    "title": "Unauthorized",
+    "description": "You don't have permission to access this page. Please sign in or contact support.",
+    "backHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "ThemeColorSwitcher": {
+    "title": "Χρώμα Θέματος",
+    "description": "Επιλέξτε το προτιμώμενο θέμα χρωμάτων",
+    "current": "Τρέχον",
+    "performanceMode": "Λειτουργία Απόδοσης",
+    "performanceDescription": "Απενεργοποιεί τις βαριές κινούμενες εικόνες για καλύτερη απόδοση",
+    "demoWarning": "Αυτό είναι μόνο για σκοπούς επίδειξης.",
+    "changeTheme": "Αλλαγή χρώματος θέματος",
+    "selectTheme": "Επιλογή θέματος {theme}"
+  }
+}

@@ -1,0 +1,283 @@
+{
+    "HomePage": {
+        "title": "Range4ex Trader Development & Skills Assessments",
+        "description": "Build discipline through educational simulations, structured evaluations, and skills-based trader development programs."
+    },
+    "HeroSection": {
+        "badge": "Skills assessment program",
+        "title1": "Develop your edge.",
+        "title2": "Prove your consistency.",
+        "description": "Build your skills through a structured assessment.",
+        "cta": "Choose an Assessment",
+        "ctaSecondary": "View Guidelines",
+        "trustBadge": "Skill-based programs for educational purposes"
+    },
+    "FeaturesSection": {
+        "badge": "Evaluation Features",
+        "title": "Tools for a structured skills evaluation",
+        "description": "Track objectives, consistency standards, and performance insights throughout each Range4ex skills assessment.",
+        "card1": {
+            "title": "Progress Alerts",
+            "description": "Receive instant notifications when your activity approaches daily evaluation thresholds.",
+            "startedFollowing": "Daily Limit Alert",
+            "view": "Manage Risk",
+            "followers": {
+                "name1": "Margin Level Check",
+                "name2": "Daily Activity Limit",
+                "name3": "Overall Performance Limit"
+            }
+        },
+        "card2": {
+            "title": "Learning Community",
+            "description": "Discuss evaluation routines and practice scenarios with other program participants.",
+            "teamChat": "Community Room",
+            "typeMessage": "Discuss practice scenarios...",
+            "messages": {
+                "msg1": {
+                    "name": "Alex",
+                    "message": "Longed EURUSD at key demand zone",
+                    "time": "2m ago"
+                },
+                "msg2": {
+                    "name": "Elena",
+                    "message": "Looking good! Adjusting my approach now",
+                    "time": "1m ago"
+                },
+                "msg3": {
+                    "name": "You",
+                    "message": "Great session—the objective was reached!",
+                    "time": "Just now"
+                }
+            }
+        },
+        "card3": {
+            "title": "Performance-Based Progression",
+            "description": "Successful evaluation outcomes can unlock advanced learning stages under the program guidelines.",
+            "growthRate": "Target Progress",
+            "target": "progress level",
+            "vsLastQuarter": "scale potential"
+        },
+        "card4": {
+            "title": "Progress Tracker",
+            "description": "Monitor daily limits, overall thresholds, and activity history in real time."
+        },
+        "card5": {
+            "title": "Advanced Performance Insights",
+            "description": "Review consistency, decision patterns, and session duration in your dashboard.",
+            "searchPlaceholder": "The First"
+        }
+    },
+    "CompaniesSection": {
+        "title": "Platforms available for simulated evaluations"
+    },
+    "StatisticsSection": {
+        "badge": "Program Overview",
+        "title": "Range4ex evaluation activity",
+        "description": "Explore participation and performance indicators across our structured skills evaluations.",
+        "stats": {
+            "stat1": {
+                "label": "Evaluation Participants",
+                "description": "Taking part in skills-based programs worldwide"
+            },
+            "stat2": {
+                "label": "Learning Progress",
+                "description": "Measured across completed evaluations"
+            },
+            "stat3": {
+                "label": "Platform Availability",
+                "description": "Reliable access to the learning experience"
+            }
+        }
+    },
+    "PricesSection": {
+        "badge": "Pricing Plans",
+        "title": "Start free, scale smart",
+        "description": "Choose the perfect plan for your startup. Start free and upgrade as you grow. All plans include core analytics features.",
+        "perMonth": "/month",
+        "billingNote": "Billed monthly, cancel anytime",
+        "usedByTeams": "Used by {count} teams",
+        "whatsIncluded": "What's included:",
+        "customSolutions": {
+            "title": "Need custom solutions?",
+            "description": "Get tailored analytics solutions, custom integrations, and dedicated support for your growing business.",
+            "cta": "Contact Sales"
+        },
+        "categories": {
+            "all": "All Features",
+            "design": "Design",
+            "development": "Development",
+            "support": "Support",
+            "growth": "Growth"
+        },
+        "plans": {
+            "starter": {
+                "name": "Starter",
+                "description": "Perfect for small teams getting started with user analytics and growth tracking",
+                "cta": "Start Free Trial",
+                "features": {
+                    "f1": "Up to 10K tracked users",
+                    "f2": "Basic analytics dashboard",
+                    "f3": "Email notifications",
+                    "f4": "Mobile app tracking",
+                    "f5": "7-day data retention"
+                }
+            },
+            "growth": {
+                "name": "Growth",
+                "description": "Advanced analytics and insights for scaling businesses with comprehensive user tracking",
+                "cta": "Choose Growth",
+                "badge": "Most Popular",
+                "features": {
+                    "f1": "Up to 100K tracked users",
+                    "f2": "Advanced analytics & insights",
+                    "f3": "Real-time notifications",
+                    "f4": "API access & integrations",
+                    "f5": "90-day data retention",
+                    "f6": "A/B testing tools",
+                    "f7": "Custom reports"
+                }
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "description": "Complete analytics solution for large organizations with unlimited tracking and premium support",
+                "cta": "Contact Sales",
+                "badge": "Enterprise",
+                "features": {
+                    "f1": "Unlimited tracked users",
+                    "f2": "Custom dashboard builder",
+                    "f3": "24/7 priority support",
+                    "f4": "Advanced API & webhooks",
+                    "f5": "Unlimited data retention",
+                    "f6": "White-label solutions",
+                    "f7": "Dedicated success manager"
+                }
+            }
+        },
+        "modal": {
+            "title": "Let's Discuss Your Project",
+            "description": "Ready to get started with our {planName} package? Contact us to discuss your specific requirements and get a detailed project timeline.",
+            "cta": "Contact Us Now"
+        }
+    },
+    "TestimonialsSection": {
+        "badge": "Participant Feedback",
+        "title": "Built around the evaluation experience",
+        "description": "See what participants value about Range4ex guidelines, dashboards, and structured skills assessments.",
+        "at": "at",
+        "testimonials": {
+            "t1": {
+                "name": "Sarah Chen",
+                "role": "Founder",
+                "company": "Range4ex",
+                "content": "The evaluation dashboard made my objectives and daily limits easy to follow from the first session."
+            },
+            "t2": {
+                "name": "Marcus Rodriguez",
+                "role": "Product Manager",
+                "company": "Range4ex",
+                "content": "Clear rules and straightforward performance metrics helped me stay focused on consistency."
+            },
+            "t3": {
+                "name": "Emily Watson",
+                "role": "CEO",
+                "company": "Range4ex",
+                "content": "I could compare the assessment options and understand each development path before enrolling."
+            },
+            "t4": {
+                "name": "David Park",
+                "role": "Growth Lead",
+                "company": "Range4ex",
+                "content": "The simulation insights helped me review decisions and refine my daily routine."
+            },
+            "t5": {
+                "name": "Lisa Thompson",
+                "role": "Marketing Director",
+                "company": "Range4ex",
+                "content": "The rulebook is specific, searchable, and easy to reference during an evaluation."
+            },
+            "t6": {
+                "name": "Alex Kumar",
+                "role": "CTO",
+                "company": "Range4ex",
+                "content": "The support team gave clear guidance about my evaluation objectives and program status."
+            }
+        }
+    },
+    "CertificatesSection": {
+        "badge": "Payout certificates",
+        "title": "Every payout, certified",
+        "description": "Each payout Range4ex releases comes with a signed certificate naming the trader and the amount.",
+        "hint": "Drag or use the arrows to browse."
+    },
+    "FaqSection": {
+        "badge": "Rulebook FAQ",
+        "title": "Evaluation guidelines, explained clearly",
+        "description": "Key answers covering assessment types, performance limits, participation standards, progression, and program policies.",
+        "searchPlaceholder": "Search rules...",
+        "noResults": "No matching rule questions found. Try a different search term or category.",
+        "showMore": "Show {count} More",
+        "showLess": "Show Less",
+        "categories": {
+            "all": "All",
+            "programs": "Programs",
+            "drawdown": "Limits",
+            "conduct": "Conduct",
+            "payouts": "Progression",
+            "account": "Program"
+        },
+        "faqs": {
+            "q1": {
+                "question": "What skills-assessment programs are offered?",
+                "answer": "Range4ex offers three evaluation paths: Two Step, One Step, and Instant. Each path uses defined objectives and clear participation guidelines."
+            },
+            "q2": {
+                "question": "What objectives apply to each plan?",
+                "answer": "Two Step uses an 8% Phase 1 target and 5% Phase 2 target. One Step uses a single 10% target. Instant has no evaluation target."
+            },
+            "q3": {
+                "question": "How is Daily Limits calculated?",
+                "answer": "Daily Limits is equity-based. The permitted daily loss is a fixed percentage of the initial account size, resets at 00:00 server time, and does not move upward with profits."
+            },
+            "q4": {
+                "question": "What are the overall performance limits?",
+                "answer": "Overall performance limits remain fixed: Two Step is 10%, One Step is 6%, and Instant is 5%. Each threshold is based on the initial simulation level."
+            },
+            "q5": {
+                "question": "Are restricted event windows used?",
+                "answer": "Certain actions are restricted for two minutes before and after designated high-impact events. Activity during that window may be excluded under the participation guidelines."
+            },
+            "q6": {
+                "question": "Are Expert Advisors and automation allowed?",
+                "answer": "Personally coded automation is allowed only when it represents the participant own approach and does not exploit latency or unrealistic execution. Commercial or widely shared automation is prohibited."
+            },
+            "q7": {
+                "question": "What happens after successful completion?",
+                "answer": "Eligible participants progress according to the published program terms. During the Performance Stage, participation standards continue, but no further assessment objective applies."
+            },
+            "q8": {
+                "question": "When does an eligible participant progress?",
+                "answer": "After a successful evaluation outcome, eligible participants may progress under the current program schedule. Minimum activity, performance, and program-status requirements apply."
+            },
+            "q9": {
+                "question": "When is KYC required?",
+                "answer": "Identity verification is required before advanced program access is enabled. The person completing verification must be the registered participant."
+            },
+            "q10": {
+                "question": "Can enrollment charges be returned?",
+                "answer": "Eligibility for a return depends on the selected evaluation and the current program terms. Review the applicable terms before enrolling."
+            }
+        }
+    },
+    "CtaSection": {
+        "badge": "Start Your Evaluation",
+        "title": "Choose your Range4ex skills assessment",
+        "description": "Compare educational simulation programs, review the guidelines, and select an evaluation that matches your development goals.",
+        "contactForm": {
+            "title": "Ready to develop your skills?",
+            "description": "Join participants using Range4ex trader-development and skills-evaluation programs for educational purposes.",
+            "emailPlaceholder": "Enter your email address",
+            "cta": "Explore Challenges",
+            "disclaimer": "Educational simulations • Skills assessment"
+        }
+    }
+}

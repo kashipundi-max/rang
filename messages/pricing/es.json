@@ -1,0 +1,150 @@
+{
+    "PricingPage": {
+        "meta": {
+            "title": "Pricing Plans - Choose Your Perfect Plan",
+            "description": "Flexible pricing plans for startups and enterprises. Start free, scale smart with our analytics platform."
+        },
+        "hero": {
+            "badge": "Simple, Transparent Pricing",
+            "title": "Elija el tamaño de evaluación perfecto",
+            "description": "Pague una tarifa única reembolsable, alcance los objetivos y obtenga financiación."
+        },
+        "billing": {
+            "monthly": "Monthly",
+            "annual": "Annual",
+            "month": "mo",
+            "year": "yr",
+            "save": "Save 20%",
+            "annualNote": "Save {months} months free"
+        },
+        "cards": {
+            "popular": "Most Popular",
+            "usedBy": "Used by {count} teams",
+            "usedByTeams": "Used by {count}+ teams",
+            "perMonth": "/month",
+            "perYear": "/year",
+            "billedAnnually": "Billed annually (2 months free)",
+            "whatsIncluded": "What's included",
+            "starter": {
+                "name": "Starter",
+                "description": "Perfect for small teams getting started with analytics and growth tracking.",
+                "cta": "Start Free Trial",
+                "features": {
+                    "f1": "Up to 10K tracked users",
+                    "f2": "Basic analytics dashboard",
+                    "f3": "Email notifications",
+                    "f4": "Mobile app tracking",
+                    "f5": "7-day data retention"
+                }
+            },
+            "growth": {
+                "name": "Growth",
+                "description": "Advanced analytics and insights for scaling businesses with comprehensive tracking.",
+                "cta": "Choose Growth",
+                "features": {
+                    "f1": "Up to 100K tracked users",
+                    "f2": "Advanced analytics & insights",
+                    "f3": "Real-time notifications",
+                    "f4": "API access & integrations",
+                    "f5": "90-day data retention",
+                    "f6": "A/B testing tools",
+                    "f7": "Custom reports"
+                }
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "description": "Complete analytics solution for large organizations with unlimited everything.",
+                "cta": "Contact Sales",
+                "features": {
+                    "f1": "Unlimited tracked users",
+                    "f2": "Custom dashboard builder",
+                    "f3": "24/7 priority support",
+                    "f4": "Advanced API & webhooks",
+                    "f5": "Unlimited data retention",
+                    "f6": "White-label solutions",
+                    "f7": "Dedicated success manager",
+                    "f8": "Custom integrations"
+                }
+            },
+            "features": {
+                "f6": "A/B testing tools",
+                "f7": "Custom reports",
+                "f8": "Custom integrations"
+            }
+        },
+        "comparison": {
+            "title": "Compare All Features",
+            "description": "See exactly what's included in each plan and choose the best fit for your needs.",
+            "features": "Features",
+            "starter": "Starter",
+            "growth": "Growth",
+            "enterprise": "Enterprise",
+            "custom": "Custom",
+            "featuresCount": "features",
+            "categories": {
+                "core": "Core Features",
+                "analytics": "Analytics & Insights",
+                "integrations": "Integrations",
+                "support": "Support",
+                "security": "Security & Compliance"
+            },
+            "featuresList": {
+                "tracked_users": "Tracked Users",
+                "team_members": "Team Members",
+                "projects": "Projects",
+                "data_retention": "Data Retention",
+                "custom_events": "Custom Events",
+                "basic_analytics": "Basic Analytics",
+                "advanced_analytics": "Advanced Analytics",
+                "funnel_analysis": "Funnel Analysis",
+                "cohort_analysis": "Cohort Analysis",
+                "ab_testing": "A/B Testing",
+                "custom_reports": "Custom Reports",
+                "realtime_dashboard": "Real-time Dashboard",
+                "predictive_analytics": "Predictive Analytics (AI)",
+                "api_access": "API Access",
+                "webhooks": "Webhooks",
+                "slack_integration": "Slack Integration",
+                "zapier_integration": "Zapier Integration",
+                "custom_integrations": "Custom Integrations",
+                "data_export": "Data Export",
+                "email_support": "Email Support",
+                "priority_support": "Priority Support",
+                "phone_support": "Phone Support",
+                "dedicated_manager": "Dedicated Success Manager",
+                "onboarding_training": "Onboarding & Training",
+                "sla_guarantee": "SLA Guarantee",
+                "ssl_encryption": "SSL Encryption",
+                "two_factor_auth": "Two-Factor Auth",
+                "sso": "Single Sign-On (SSO)",
+                "audit_logs": "Audit Logs",
+                "custom_permissions": "Custom Permissions",
+                "hipaa_compliance": "HIPAA Compliance",
+                "soc2_compliance": "SOC 2 Compliance"
+            }
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "description": "Got questions? We've got answers. If you can't find what you're looking for, reach out to our support team.",
+            "items": {
+                "q1": "Can I change my plan anytime?",
+                "a1": "Absolutely! You can upgrade or downgrade your plan at any time. When upgrading, you'll be charged the prorated amount for the remaining billing period. When downgrading, the new rate will apply from your next billing cycle.",
+                "q2": "Is there a free trial available?",
+                "a2": "Yes! All plans come with a 14-day free trial. No credit card required. You can explore all features and decide which plan works best for your team before committing.",
+                "q3": "What payment methods do you accept?",
+                "a3": "We accept all major credit cards (Visa, Mastercard, American Express), PayPal, and bank transfers for annual Enterprise plans. All payments are processed securely through Stripe.",
+                "q4": "Can I cancel my subscription?",
+                "a4": "Yes, you can cancel your subscription at any time. Your access will continue until the end of your current billing period. We don't offer refunds for partial months, but we don't lock you into long-term contracts either.",
+                "q5": "Do you offer discounts for startups or nonprofits?",
+                "a5": "Yes! We offer special pricing for early-stage startups, educational institutions, and nonprofit organizations. Contact our sales team with details about your organization to learn more.",
+                "q6": "What happens if I exceed my plan limits?",
+                "a6": "If you approach your plan limits, we'll notify you in advance. You can upgrade your plan anytime, or we'll work with you to find a solution. We never cut off your access without warning."
+            }
+        },
+        "cta": {
+            "title": "Need a custom solution?",
+            "description": "Our team can help you build a tailored analytics solution that fits your specific requirements and scales with your business.",
+            "button": "Talk to Sales"
+        }
+    }
+}

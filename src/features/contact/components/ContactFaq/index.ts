@@ -1,0 +1,1 @@
+export { ContactFaq } from "./ContactFaq";

@@ -1,0 +1,283 @@
+{
+    "HomePage": {
+        "title": "Comience gratis, escale inteligente",
+        "description": "Elija el plan perfecto para su startup. Comience gratis y actualice a medida que crece."
+    },
+    "HeroSection": {
+        "badge": "Programa de evaluación de habilidades",
+        "title1": "Desarrolle sus habilidades.",
+        "title2": "Demuestre su constancia.",
+        "description": "Fortalezca sus habilidades con una evaluación estructurada.",
+        "cta": "Elegir evaluación",
+        "ctaSecondary": "Ver pautas",
+        "trustBadge": "Programas educativos basados en habilidades"
+    },
+    "FeaturesSection": {
+        "badge": "Características",
+        "title": "Características clave",
+        "description": "Explore las características integrales que distinguen a nuestra plataforma.",
+        "card1": {
+            "title": "Notificaciones inteligentes",
+            "description": "Reciba alertas en tiempo real de las actualizaciones importantes.",
+            "startedFollowing": "Started Following You",
+            "view": "View",
+            "followers": {
+                "name1": "Emma Richardson",
+                "name2": "David Chen",
+                "name3": "Sarah Mitchell"
+            }
+        },
+        "card2": {
+            "title": "Colaboraciones sencillas",
+            "description": "Solución simplificada para un trabajo en equipo productivo.",
+            "teamChat": "Team Chat",
+            "typeMessage": "Type a message...",
+            "messages": {
+                "msg1": {
+                    "name": "Emma",
+                    "message": "Just pushed the new designs",
+                    "time": "2m ago"
+                },
+                "msg2": {
+                    "name": "James",
+                    "message": "Looking great! I'll review now",
+                    "time": "1m ago"
+                },
+                "msg3": {
+                    "name": "You",
+                    "message": "Perfect, let's sync at 3pm",
+                    "time": "Just now"
+                }
+            }
+        },
+        "card3": {
+            "title": "Impulse su crecimiento",
+            "description": "Potencie su negocio con análisis de datos.",
+            "growthRate": "Growth Rate",
+            "target": "target",
+            "vsLastQuarter": "vs last quarter"
+        },
+        "card4": {
+            "title": "Métricas de rendimiento",
+            "description": "Haga un seguimiento de su éxito con análisis detallados."
+        },
+        "card5": {
+            "title": "Panel de análisis",
+            "description": "Manténgase a la vanguardia con visualización de datos en tiempo real.",
+            "searchPlaceholder": "The First"
+        }
+    },
+    "CompaniesSection": {
+        "title": "Trusted by leading companies worldwide"
+    },
+    "StatisticsSection": {
+        "badge": "Resultados probados",
+        "title": "Números que hablan",
+        "description": "Vea por qué miles de startups eligen nuestra plataforma para acelerar su crecimiento.",
+        "stats": {
+            "stat1": {
+                "label": "Startups en crecimiento",
+                "description": "Confían en nuestra plataforma en todo el mundo"
+            },
+            "stat2": {
+                "label": "Crecimiento promedio",
+                "description": "Aumento de ingresos en 6 meses"
+            },
+            "stat3": {
+                "label": "Garantía de tiempo de actividad",
+                "description": "Fiabilidad de nivel empresarial"
+            }
+        }
+    },
+    "PricesSection": {
+        "badge": "Pricing Plans",
+        "title": "Start free, scale smart",
+        "description": "Choose the perfect plan for your startup. Start free and upgrade as you grow. All plans include core analytics features.",
+        "perMonth": "/month",
+        "billingNote": "Billed monthly, cancel anytime",
+        "usedByTeams": "Used by {count} teams",
+        "whatsIncluded": "What's included:",
+        "customSolutions": {
+            "title": "Need custom solutions?",
+            "description": "Get tailored analytics solutions, custom integrations, and dedicated support for your growing business.",
+            "cta": "Contact Sales"
+        },
+        "categories": {
+            "all": "All Features",
+            "design": "Design",
+            "development": "Development",
+            "support": "Support",
+            "growth": "Growth"
+        },
+        "plans": {
+            "starter": {
+                "name": "Starter",
+                "description": "Perfect for small teams getting started with user analytics and growth tracking",
+                "cta": "Start Free Trial",
+                "features": {
+                    "f1": "Up to 10K tracked users",
+                    "f2": "Basic analytics dashboard",
+                    "f3": "Email notifications",
+                    "f4": "Mobile app tracking",
+                    "f5": "7-day data retention"
+                }
+            },
+            "growth": {
+                "name": "Growth",
+                "description": "Advanced analytics and insights for scaling businesses with comprehensive user tracking",
+                "cta": "Choose Growth",
+                "badge": "Most Popular",
+                "features": {
+                    "f1": "Up to 100K tracked users",
+                    "f2": "Advanced analytics & insights",
+                    "f3": "Real-time notifications",
+                    "f4": "API access & integrations",
+                    "f5": "90-day data retention",
+                    "f6": "A/B testing tools",
+                    "f7": "Custom reports"
+                }
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "description": "Complete analytics solution for large organizations with unlimited tracking and premium support",
+                "cta": "Contact Sales",
+                "badge": "Enterprise",
+                "features": {
+                    "f1": "Unlimited tracked users",
+                    "f2": "Custom dashboard builder",
+                    "f3": "24/7 priority support",
+                    "f4": "Advanced API & webhooks",
+                    "f5": "Unlimited data retention",
+                    "f6": "White-label solutions",
+                    "f7": "Dedicated success manager"
+                }
+            }
+        },
+        "modal": {
+            "title": "Let's Discuss Your Project",
+            "description": "Ready to get started with our {planName} package? Contact us to discuss your specific requirements and get a detailed project timeline.",
+            "cta": "Contact Us Now"
+        }
+    },
+    "TestimonialsSection": {
+        "badge": "Testimonials",
+        "title": "Loved by thousands",
+        "description": "See what our customers are saying about their experience with our analytics platform",
+        "at": "at",
+        "testimonials": {
+            "t1": {
+                "name": "Sarah Chen",
+                "role": "Founder",
+                "company": "Range4ex",
+                "content": "This analytics platform transformed how we understand our users. The insights helped us increase conversion by 240% in just 3 months."
+            },
+            "t2": {
+                "name": "Marcus Rodriguez",
+                "role": "Product Manager",
+                "company": "Range4ex",
+                "content": "The real-time data and intuitive dashboard made it easy for our entire team to make data-driven decisions. Absolutely game-changing."
+            },
+            "t3": {
+                "name": "Emily Watson",
+                "role": "CEO",
+                "company": "Range4ex",
+                "content": "Finally, an analytics tool that doesn't require a PhD to understand. The automated insights save us hours every week."
+            },
+            "t4": {
+                "name": "David Park",
+                "role": "Growth Lead",
+                "company": "Range4ex",
+                "content": "The user segmentation features are incredible. We can now target our campaigns with precision and see immediate results."
+            },
+            "t5": {
+                "name": "Lisa Thompson",
+                "role": "Marketing Director",
+                "company": "Range4ex",
+                "content": "Best investment we've made for our startup. The ROI tracking and funnel analysis helped us optimize our entire sales process."
+            },
+            "t6": {
+                "name": "Alex Kumar",
+                "role": "CTO",
+                "company": "Range4ex",
+                "content": "Clean integration, powerful features, and excellent support. Our development team was able to implement it in less than a day."
+            }
+        }
+    },
+    "CertificatesSection": {
+        "badge": "Certificados de pago",
+        "title": "Cada pago, certificado",
+        "description": "Cada pago que Range4ex libera incluye un certificado firmado con el nombre del trader y el importe.",
+        "hint": "Arrastra o usa las flechas para navegar."
+    },
+    "FaqSection": {
+        "badge": "Rulebook FAQ",
+        "title": "Trading rules, explained clearly",
+        "description": "Key answers from the official rules page covering challenge types, drawdown, conduct, payouts, and account policies.",
+        "searchPlaceholder": "Search rules...",
+        "noResults": "No matching rule questions found. Try a different search term or category.",
+        "showMore": "Show {count} More",
+        "showLess": "Show Less",
+        "categories": {
+            "all": "All",
+            "programs": "Programs",
+            "drawdown": "Drawdown",
+            "conduct": "Conduct",
+            "payouts": "Payouts",
+            "account": "Account"
+        },
+        "faqs": {
+            "q1": {
+                "question": "What trading programs are offered?",
+                "answer": "Range4ex offers exactly three account types: Two Step, One Step, and Instant. Evaluation paths use defined targets, while Instant begins in the performance stage under tighter risk rules."
+            },
+            "q2": {
+                "question": "What profit targets apply to each plan?",
+                "answer": "Two Step uses an 8% Phase 1 target and 5% Phase 2 target. One Step uses a single 10% target. Instant has no evaluation target."
+            },
+            "q3": {
+                "question": "How is Daily Drawdown calculated?",
+                "answer": "Daily Drawdown is equity-based. The permitted daily loss is a fixed percentage of the initial account size, resets at 00:00 server time, and does not move upward with profits."
+            },
+            "q4": {
+                "question": "What are the overall drawdown limits?",
+                "answer": "All overall drawdown is static and equity-based: Two Step is 10%, One Step is 6%, and Instant is 5%. Each breach floor is fixed from the initial account size and never trails profits."
+            },
+            "q5": {
+                "question": "Is news trading allowed?",
+                "answer": "Opening or closing a position on an affected instrument is not allowed within 2 minutes before or after a high-impact news release. Profit generated during that restricted window is removed as a soft breach if no drawdown breach also occurred."
+            },
+            "q6": {
+                "question": "Are Expert Advisors and automation allowed?",
+                "answer": "Personally coded automation is allowed only when it represents the trader own strategy and does not exploit latency, tick scalping, or unrealistic execution. Commercial or shared EAs sold to multiple traders are prohibited."
+            },
+            "q7": {
+                "question": "What is the funded-stage profit split?",
+                "answer": "The standard Performance Fee split is 80% to the trader and 20% to the firm. Once an account reaches the Funded Stage, drawdown, leverage, and conduct rules continue, but no further profit target applies."
+            },
+            "q8": {
+                "question": "When can a funded trader request a payout?",
+                "answer": "Approved payouts are processed within 2 to 5 business days. The first funded payout requires at least 5 trading days and a minimum profit. Open positions must be closed before submitting a payout request."
+            },
+            "q9": {
+                "question": "When is KYC required?",
+                "answer": "Identity verification is required before the first payout is released on any account. The person who completes KYC must be the person placing trades on the account."
+            },
+            "q10": {
+                "question": "Are evaluation fees refundable?",
+                "answer": "Evaluation fees for Two Step and One Step accounts may be refunded with the first successful payout, depending on the firm commercial model. Instant fees are non-refundable because there is no evaluation gate."
+            }
+        }
+    },
+    "CtaSection": {
+        "badge": "Our Global Reach",
+        "title": "Where We Work",
+        "description": "Explore our worldwide presence and see where our templates and services are making an impact.",
+        "contactForm": {
+            "title": "Ready to Get Started?",
+            "description": "Join {count}+ startups using our analytics platform to grow smarter.",
+            "emailPlaceholder": "Enter your email address",
+            "cta": "Get Started Free",
+            "disclaimer": "No credit card required • 14-day free trial"
+        }
+    }
+}

@@ -1,0 +1,101 @@
+{
+  "Header": {
+    "home": "Inicio",
+    "products": "Desafíos",
+    "resources": "Preguntas",
+    "features": "Reglas",
+    "pricing": "Cuentas",
+    "rules": "Reglas",
+    "video": "Video",
+    "blog": "Blog",
+    "testimonials": "Pagos",
+    "faq": "Preguntas",
+    "contact": "Contacto",
+    "getStarted": "Comenzar Desafío",
+    "signUp": "Registrarse",
+    "login": "Iniciar sesión"
+  },
+  "Footer": {
+    "description": "Opere con nuestro capital y quédese con hasta el 90% de las ganancias. Diseñado para traders profesionales.",
+    "sections": {
+      "product": "Evaluación",
+      "company": "Firma",
+      "resources": "Recursos",
+      "legal": "Legal"
+    },
+    "links": {
+      "features": "Características",
+      "pricing": "Precios",
+      "templates": "Plantillas",
+      "integrations": "Integraciones",
+      "about": "Nosotros",
+      "blog": "Blog",
+      "careers": "Carreras",
+      "contact": "Contacto",
+      "documentation": "Documentación",
+      "page404": "Página 404",
+      "page500": "Página 500",
+      "page401": "Página 401",
+      "privacyPolicy": "Política de Privacidad",
+      "termsOfService": "Términos de Servicio",
+      "cookiePolicy": "Política de Cookies",
+      "gdpr": "GDPR"
+    },
+    "social": {
+      "twitter": "Twitter",
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "email": "Correo"
+    },
+    "newsletter": {
+      "title": "Manténgase al día",
+      "description": "Reciba las últimas actualizaciones, plantillas e información de diseño.",
+      "placeholder": "Ingrese su correo electrónico",
+      "subscribe": "Suscribirse"
+    },
+    "copyright": "© {year} Range4ex. Todos los derechos reservados.",
+    "madeWith": "Hecho con ❤️ por",
+    "cta": {
+      "love": "🚀 ¿Le gusta esta plantilla?",
+      "getSource": "¡Obtenga el código fuente completo y comience a construir hoy!",
+      "buyTemplate": "Comprar esta plantilla"
+    }
+  },
+  "Common": {
+    "learnMore": "Saber más",
+    "viewAll": "Ver todo",
+    "contactUs": "Contáctenos",
+    "readMore": "Leer más",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito"
+  },
+  "NotFoundPage": {
+    "title": "Page Not Found",
+    "description": "Oops! The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "ServerErrorPage": {
+    "title": "Server Error",
+    "description": "Oops! Something went wrong on our end. Please try again later.",
+    "backHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "UnauthorizedPage": {
+    "title": "Unauthorized",
+    "description": "You don't have permission to access this page. Please sign in or contact support.",
+    "backHome": "Back to Home",
+    "goBack": "Go Back"
+  },
+  "ThemeColorSwitcher": {
+    "title": "Color del tema",
+    "description": "Elija su combinación de colores preferida",
+    "current": "Actual",
+    "performanceMode": "Modo rendimiento",
+    "performanceDescription": "Desactiva las animaciones pesadas para un mejor rendimiento",
+    "demoWarning": "Esto es solo para fines de demostración.",
+    "changeTheme": "Cambiar color del tema",
+    "selectTheme": "Seleccionar tema {theme}"
+  }
+}

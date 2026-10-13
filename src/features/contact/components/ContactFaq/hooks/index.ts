@@ -1,0 +1,1 @@
+export { useFaqItems } from "./useFaqItems";

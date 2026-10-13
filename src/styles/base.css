@@ -1,0 +1,42 @@
+/* ============================================
+   Base Element Styles
+   Global styles for HTML elements
+   ============================================ */
+
+body {
+    color: var(--foreground);
+    font-family: "DM Sans", "Noto Sans Arabic", system-ui, sans-serif;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+/* RTL Language Support - Apply Arabic fonts globally */
+[dir="rtl"] body {
+    font-family: "Noto Sans Arabic", "DM Sans", system-ui, sans-serif;
+}
+
+/* Headings use Clash Display in LTR, Almarai in RTL */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-clash-display {
+    font-family: "Clash Display", "Noto Sans Arabic", system-ui, sans-serif;
+}
+
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
+[dir="rtl"] h6,
+[dir="rtl"] .font-clash-display {
+    font-family: "Almarai", "Noto Sans Arabic", system-ui, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}

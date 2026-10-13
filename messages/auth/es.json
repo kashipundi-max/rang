@@ -1,0 +1,137 @@
+{
+    "SignUpPage": {
+        "meta": {
+            "title": "Crear Cuenta - Registrarse",
+            "description": "Cree su cuenta para comenzar con nuestra plataforma de análisis."
+        },
+        "form": {
+            "title": "Registrar perfil de trader",
+            "subtitle": "Start your 14-day free trial. No credit card required.",
+            "name": {
+                "label": "Nombre completo",
+                "placeholder": "Ingrese su nombre completo"
+            },
+            "email": {
+                "label": "Correo electrónico",
+                "placeholder": "Ingrese su correo"
+            },
+            "password": {
+                "label": "Contraseña",
+                "placeholder": "Cree una contraseña"
+            },
+            "confirmPassword": {
+                "label": "Confirmar contraseña",
+                "placeholder": "Confirme su contraseña"
+            },
+            "referralCode": {
+                "label": "Código de referido (Opcional)",
+                "placeholder": "Ingrese el código de referido"
+            },
+            "terms": {
+                "label": "Acepto los",
+                "link": "Términos de Servicio"
+            },
+            "showPassword": "Show password",
+            "hidePassword": "Hide password",
+            "submit": "Registrar Perfil",
+            "submitting": "Creando cuenta...",
+            "success": "¡Cuenta creada!",
+            "error": "Algo salió mal",
+            "hasAccount": "¿Ya tiene una cuenta?",
+            "signIn": "Iniciar sesión",
+            "validation": {
+                "nameRequired": "Name is required",
+                "nameMin": "Name must be at least 2 characters",
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email",
+                "passwordRequired": "Password is required",
+                "passwordMin": "Password must be at least 8 characters",
+                "passwordUppercase": "Password must contain an uppercase letter",
+                "passwordLowercase": "Password must contain a lowercase letter",
+                "passwordNumber": "Password must contain a number",
+                "passwordSpecial": "Password must contain a special character",
+                "confirmPasswordRequired": "Please confirm your password",
+                "confirmPasswordMatch": "Passwords do not match",
+                "termsRequired": "You must accept the terms of service"
+            }
+        },
+        "social": {
+            "divider": "or use email",
+            "google": "Continue with Google",
+            "github": "Continue with GitHub",
+            "twitter": "Continue with X"
+        }
+    },
+    "SignInPage": {
+        "meta": {
+            "title": "Iniciar Sesión",
+            "description": "Inicie sesión en su cuenta para acceder al panel."
+        },
+        "form": {
+            "title": "Consola de Trader",
+            "subtitle": "Sign in to continue to your dashboard.",
+            "email": {
+                "label": "Correo electrónico",
+                "placeholder": "Ingrese su correo"
+            },
+            "password": {
+                "label": "Contraseña",
+                "placeholder": "Ingrese su contraseña"
+            },
+            "rememberMe": "Recordarme",
+            "forgotPassword": "¿Olvidó su contraseña?",
+            "showPassword": "Show password",
+            "hidePassword": "Hide password",
+            "submit": "Acceder a Consola",
+            "submitting": "Iniciando sesión...",
+            "success": "¡Bienvenido de nuevo!",
+            "error": "Credenciales inválidas",
+            "noAccount": "¿No tiene una cuenta?",
+            "signUp": "Registrarse ahora",
+            "validation": {
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email",
+                "passwordRequired": "Password is required"
+            }
+        },
+        "social": {
+            "divider": "or use email",
+            "google": "Continue with Google",
+            "github": "Continue with GitHub",
+            "twitter": "Continue with X"
+        }
+    },
+    "ForgotPasswordPage": {
+        "meta": {
+            "title": "Olvidé mi contraseña",
+            "description": "Restablezca su contraseña de usuario."
+        },
+        "form": {
+            "title": "¿Olvidó su contraseña?",
+            "subtitle": "Enter your email and we'll send you a reset link.",
+            "email": {
+                "label": "Correo electrónico",
+                "placeholder": "Ingrese su correo"
+            },
+            "submit": "Enviar enlace",
+            "submitting": "Enviando...",
+            "success": "¡Enlace enviado!",
+            "error": "Algo salió mal",
+            "backToSignIn": "Volver a iniciar sesión",
+            "validation": {
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email"
+            }
+        },
+        "social": {
+            "divider": "or use email",
+            "google": "Continue with Google",
+            "github": "Continue with GitHub",
+            "twitter": "Continue with X"
+        }
+    },
+    "AuthLayout": {
+        "switchToDark": "Cambiar a modo oscuro",
+        "switchToLight": "Cambiar a modo claro"
+    }
+}

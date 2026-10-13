@@ -1,0 +1,137 @@
+{
+    "SignUpPage": {
+        "meta": {
+            "title": "Register - Trader Console",
+            "description": "Create your trader profile to register for the funding evaluation. Start trading up to $200k in buying power."
+        },
+        "form": {
+            "title": "Register trader profile",
+            "subtitle": "Select your challenge account size inside the console.",
+            "name": {
+                "label": "Trader Name",
+                "placeholder": "Enter your full name"
+            },
+            "email": {
+                "label": "Trader Email",
+                "placeholder": "Enter your email"
+            },
+            "password": {
+                "label": "Console Password",
+                "placeholder": "Create a password"
+            },
+            "confirmPassword": {
+                "label": "Confirm Password",
+                "placeholder": "Confirm your password"
+            },
+            "referralCode": {
+                "label": "Referral Code (Optional)",
+                "placeholder": "Enter referral code"
+            },
+            "terms": {
+                "label": "I agree to the",
+                "link": "Trader Agreement & Disclosures"
+            },
+            "showPassword": "Show password",
+            "hidePassword": "Hide password",
+            "submit": "Register Profile",
+            "submitting": "Creating profile...",
+            "success": "Profile registered!",
+            "error": "Registration failed",
+            "hasAccount": "Already registered?",
+            "signIn": "Log in",
+            "validation": {
+                "nameRequired": "Name is required",
+                "nameMin": "Name must be at least 2 characters",
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email",
+                "passwordRequired": "Password is required",
+                "passwordMin": "Password must be at least 8 characters",
+                "passwordUppercase": "Password must contain an uppercase letter",
+                "passwordLowercase": "Password must contain a lowercase letter",
+                "passwordNumber": "Password must contain a number",
+                "passwordSpecial": "Password must contain a special character",
+                "confirmPasswordRequired": "Please confirm your password",
+                "confirmPasswordMatch": "Passwords do not match",
+                "termsRequired": "You must accept the terms of service"
+            }
+        },
+        "social": {
+            "divider": "or use email",
+            "google": "Continue with Google",
+            "github": "Continue with GitHub",
+            "twitter": "Continue with X"
+        }
+    },
+    "SignInPage": {
+        "meta": {
+            "title": "Trader Login - Welcom Back",
+            "description": "Log in to your trader console to view challenge status, daily drawdown, and request payouts."
+        },
+        "form": {
+            "title": "Trader Console Login",
+            "subtitle": "Sign in to access your trading credentials and drawdown dashboard.",
+            "email": {
+                "label": "Trader Email",
+                "placeholder": "Enter your email"
+            },
+            "password": {
+                "label": "Console Password",
+                "placeholder": "Enter password"
+            },
+            "rememberMe": "Remember session",
+            "forgotPassword": "Forgot password?",
+            "showPassword": "Show password",
+            "hidePassword": "Hide password",
+            "submit": "Access Console",
+            "submitting": "Logging in...",
+            "success": "Welcome to dashboard!",
+            "error": "Invalid credentials",
+            "noAccount": "Not registered yet?",
+            "signUp": "Register now",
+            "validation": {
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email",
+                "passwordRequired": "Password is required"
+            }
+        },
+        "social": {
+            "divider": "or use email",
+            "google": "Continue with Google",
+            "github": "Continue with GitHub",
+            "twitter": "Continue with X"
+        }
+    },
+    "ForgotPasswordPage": {
+        "meta": {
+            "title": "Reset Console Password",
+            "description": "Reset your trader dashboard access credentials."
+        },
+        "form": {
+            "title": "Reset console access",
+            "subtitle": "Enter your registered email to receive a password reset link.",
+            "email": {
+                "label": "Trader Email",
+                "placeholder": "Enter your email"
+            },
+            "submit": "Send Reset Link",
+            "submitting": "Sending...",
+            "success": "Reset link sent!",
+            "error": "Something went wrong",
+            "backToSignIn": "Back to login",
+            "validation": {
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email"
+            }
+        },
+        "social": {
+            "divider": "or use email",
+            "google": "Continue with Google",
+            "github": "Continue with GitHub",
+            "twitter": "Continue with X"
+        }
+    },
+    "AuthLayout": {
+        "switchToDark": "Switch to dark mode",
+        "switchToLight": "Switch to light mode"
+    }
+}

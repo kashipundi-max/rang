@@ -1,0 +1,134 @@
+/* ============================================
+   Auth screens appearance
+   (sign in / sign up / forgot password / verify)
+
+   Auth pages run their own light + dark
+   appearance, switched from the toggle in the
+   top-right corner. Light (white) is the default;
+   dark keeps the brand purple.
+
+   The design tokens are redefined on the
+   `.auth-scope` element, so every shared component
+   inside it (Input, Checkbox, Button, Card) follows
+   the active appearance without extra props.
+   ============================================ */
+
+.auth-scope {
+  color-scheme: dark;
+}
+
+/* Light appearance (default) */
+html[data-auth-mode="light"] .auth-scope {
+  color-scheme: light;
+
+  /* Text */
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-body: #475569;
+  --color-text-muted: #94a3b8;
+
+  /* Surfaces */
+  --color-bg-dark: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-syntask-bg: #f1f5f9;
+  --color-surface-hover: #f1f5f9;
+
+  /* Borders */
+  --color-border-primary: #cbd5e1;
+  --color-border-secondary: #e2e8f0;
+
+  /* Brand - deeper purple so it stays readable on white */
+  --color-brand-primary: #6d28d9;
+  --color-brand-primary-light: #5b21b6;
+  --color-brand-surface: #f5f3ff;
+  --color-brand-border: #ddd6fe;
+  --color-brand-glow: #ede9fe;
+  --color-accent: #5b21b6;
+  --color-button-text: #ffffff;
+
+  /* Errors read better in red than amber on white */
+  --color-error: #dc2626;
+  --color-error-light: #ef4444;
+}
+
+/* ---- Brand lockup ----
+   The logo mark is drawn in white for the dark site, so on the light
+   appearance it sits on a dark tile instead of disappearing. */
+html[data-auth-mode="light"] .auth-logo img {
+  background: #0f172a;
+  border-radius: 0.875rem;
+  padding: 0.4rem 0.55rem;
+  box-shadow: 0 10px 26px -14px rgba(15, 23, 42, 0.65);
+}
+
+/* ---- Auth card ---- */
+.auth-card {
+  border-radius: 1rem;
+}
+
+html[data-auth-mode="light"] .auth-card {
+  box-shadow:
+    0 1px 2px rgba(15, 23, 42, 0.04),
+    0 24px 60px -30px rgba(15, 23, 42, 0.3);
+}
+
+html[data-auth-mode="dark"] .auth-card {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 30px 80px -40px rgba(0, 0, 0, 0.9);
+}
+
+/* ---- Fields ---- */
+.auth-scope input:not([type="checkbox"]):not([type="radio"]) {
+  height: 3rem;
+  border-radius: 0.75rem;
+  transition:
+    border-color 0.18s ease,
+    box-shadow 0.18s ease,
+    background-color 0.18s ease;
+}
+
+.auth-scope input:not([type="checkbox"]):not([type="radio"]):focus {
+  outline: none;
+  border-color: var(--color-brand-primary);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-brand-primary) 16%, transparent);
+}
+
+.auth-scope input:not([type="checkbox"]):not([type="radio"]):hover:not(:focus) {
+  border-color: color-mix(in srgb, var(--color-border-primary) 80%, var(--color-brand-primary));
+}
+
+/* Input adornments (mail / lock / eye icons) are hard-coded white in the
+   shared Input component - tone them down on the light appearance. */
+html[data-auth-mode="light"] .auth-scope .absolute.text-white,
+html[data-auth-mode="light"] .auth-scope .absolute .text-white {
+  color: #94a3b8;
+}
+
+/* Browser autofill keeps the field on the active appearance instead of
+   Chrome's own blue/lavender wash */
+.auth-scope input:-webkit-autofill,
+.auth-scope input:-webkit-autofill:hover,
+.auth-scope input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--color-text-primary);
+  caret-color: var(--color-text-primary);
+  -webkit-box-shadow: 0 0 0 1000px var(--color-bg-card) inset;
+  box-shadow: 0 0 0 1000px var(--color-bg-card) inset;
+}
+
+.auth-scope input:-webkit-autofill:focus {
+  -webkit-box-shadow:
+    0 0 0 1000px var(--color-bg-card) inset,
+    0 0 0 4px color-mix(in srgb, var(--color-brand-primary) 16%, transparent);
+  box-shadow:
+    0 0 0 1000px var(--color-bg-card) inset,
+    0 0 0 4px color-mix(in srgb, var(--color-brand-primary) 16%, transparent);
+}
+
+/* ---- Buttons ---- */
+.auth-scope .auth-submit {
+  height: 3rem;
+  border-radius: 0.75rem;
+  font-size: 0.9375rem;
+  letter-spacing: 0.01em;
+}

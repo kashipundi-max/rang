@@ -1,0 +1,1 @@
+export { useAreaChart } from "./useAreaChart";

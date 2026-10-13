@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "dev-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "-e",
+        "process.env.NEXT_DIST_DIR='.next-preview';require('child_process').spawn(process.execPath,['node_modules/next/dist/bin/next','dev','--turbopack','-p',process.env.PORT||'3100'],{stdio:'inherit'}).on('exit',c=>process.exit(c))"
+      ],
+      "port": 3100,
+      "autoPort": true
+    }
+  ]
+}

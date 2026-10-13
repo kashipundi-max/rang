@@ -1,0 +1,66 @@
+<svg width="1180" height="320" viewBox="0 0 1180 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Filled shape gradients - blue base color for brand filter -->
+        <linearGradient id="fillGrad1" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(59, 130, 246, 0)" />
+            <stop offset="50%" stop-color="rgba(59, 130, 246, 0.04)" />
+            <stop offset="100%" stop-color="rgba(59, 130, 246, 0)" />
+        </linearGradient>
+        <linearGradient id="fillGrad2" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(59, 130, 246, 0)" />
+            <stop offset="50%" stop-color="rgba(59, 130, 246, 0.03)" />
+            <stop offset="100%" stop-color="rgba(59, 130, 246, 0)" />
+        </linearGradient>
+        <linearGradient id="fillGrad3" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(59, 130, 246, 0)" />
+            <stop offset="50%" stop-color="rgba(59, 130, 246, 0.02)" />
+            <stop offset="100%" stop-color="rgba(59, 130, 246, 0)" />
+        </linearGradient>
+        <linearGradient id="fillGrad4" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(59, 130, 246, 0)" />
+            <stop offset="50%" stop-color="rgba(59, 130, 246, 0.01)" />
+            <stop offset="100%" stop-color="rgba(59, 130, 246, 0)" />
+        </linearGradient>
+        <!-- Stroke gradients - slightly brighter than fills -->
+        <linearGradient id="strokeGrad1" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(96, 165, 250, 0)" />
+            <stop offset="50%" stop-color="rgba(96, 165, 250, 0.1)" />
+            <stop offset="100%" stop-color="rgba(96, 165, 250, 0)" />
+        </linearGradient>
+        <linearGradient id="strokeGrad2" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(96, 165, 250, 0)" />
+            <stop offset="50%" stop-color="rgba(96, 165, 250, 0.07)" />
+            <stop offset="100%" stop-color="rgba(96, 165, 250, 0)" />
+        </linearGradient>
+        <linearGradient id="strokeGrad3" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(96, 165, 250, 0)" />
+            <stop offset="50%" stop-color="rgba(96, 165, 250, 0.05)" />
+            <stop offset="100%" stop-color="rgba(96, 165, 250, 0)" />
+        </linearGradient>
+        <linearGradient id="strokeGrad4" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="rgba(96, 165, 250, 0)" />
+            <stop offset="50%" stop-color="rgba(96, 165, 250, 0.03)" />
+            <stop offset="100%" stop-color="rgba(96, 165, 250, 0)" />
+        </linearGradient>
+    </defs>
+
+    <!-- Right filled shapes (pairs of arcs forming wedges pointing right) -->
+    <path d="M 620 0 L 645 160 L 620 320 L 660 320 L 695 160 L 660 0 Z" fill="url(#fillGrad1)"
+        stroke="url(#strokeGrad1)" stroke-width="1" />
+    <path d="M 700 0 L 745 160 L 700 320 L 740 320 L 795 160 L 740 0 Z" fill="url(#fillGrad2)"
+        stroke="url(#strokeGrad2)" stroke-width="1" />
+    <path d="M 780 0 L 845 160 L 780 320 L 820 320 L 895 160 L 820 0 Z" fill="url(#fillGrad3)"
+        stroke="url(#strokeGrad3)" stroke-width="1" />
+    <path d="M 860 0 L 945 160 L 860 320 L 900 320 L 995 160 L 900 0 Z" fill="url(#fillGrad4)"
+        stroke="url(#strokeGrad4)" stroke-width="1" />
+
+    <!-- Left filled shapes (pairs of arcs forming wedges pointing left) -->
+    <path d="M 560 0 L 535 160 L 560 320 L 520 320 L 485 160 L 520 0 Z" fill="url(#fillGrad1)"
+        stroke="url(#strokeGrad1)" stroke-width="1" />
+    <path d="M 480 0 L 435 160 L 480 320 L 440 320 L 385 160 L 440 0 Z" fill="url(#fillGrad2)"
+        stroke="url(#strokeGrad2)" stroke-width="1" />
+    <path d="M 400 0 L 335 160 L 400 320 L 360 320 L 285 160 L 360 0 Z" fill="url(#fillGrad3)"
+        stroke="url(#strokeGrad3)" stroke-width="1" />
+    <path d="M 320 0 L 235 160 L 320 320 L 280 320 L 185 160 L 280 0 Z" fill="url(#fillGrad4)"
+        stroke="url(#strokeGrad4)" stroke-width="1" />
+</svg>

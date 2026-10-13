@@ -1,0 +1,150 @@
+{
+    "PricingPage": {
+        "meta": {
+            "title": "Trading Challenge Programs | Range4ex Prop Firm Evaluation",
+            "description": "Compare Range4ex simulated trading challenges, evaluation targets, and account sizes designed for skill-based trader assessment."
+        },
+        "hero": {
+            "badge": "Transparent Evaluation Fees",
+            "title": "Choose your simulated trading challenge",
+            "description": "Select a simulated account size, follow the evaluation objectives, and demonstrate consistent risk management."
+        },
+        "billing": {
+            "monthly": "1-Step Evaluation",
+            "annual": "2-Step Evaluation",
+            "month": "fee",
+            "year": "fee",
+            "save": "Refundable",
+            "annualNote": "Refunded on your first profit payout"
+        },
+        "cards": {
+            "popular": "Most Popular",
+            "usedBy": "Trading balance {count}",
+            "usedByTeams": "Trading balance {count}",
+            "perMonth": " Fee",
+            "perYear": " Fee",
+            "billedAnnually": "One-time registration fee (100% refundable)",
+            "whatsIncluded": "Account Parameters",
+            "starter": {
+                "name": "$25,000 Account",
+                "description": "A focused simulated account for traders building confidence under clear evaluation conditions.",
+                "cta": "Select $25K Challenge",
+                "features": {
+                    "f1": "$25,000 Simulated Balance",
+                    "f2": "8% Phase 1 / 5% Phase 2 Target",
+                    "f3": "5% Max Daily Drawdown",
+                    "f4": "10% Max Total Drawdown",
+                    "f5": "1:100 Leverage on FX & Gold"
+                }
+            },
+            "growth": {
+                "name": "$100,000 Account",
+                "description": "A popular prop firm evaluation format for traders ready to demonstrate consistency.",
+                "cta": "Select $100K Challenge",
+                "features": {
+                    "f1": "$100,000 Simulated Balance",
+                    "f2": "8% Phase 1 / 5% Phase 2 Target",
+                    "f3": "5% Max Daily Drawdown",
+                    "f4": "10% Max Total Drawdown",
+                    "f5": "Progress to larger simulated levels",
+                    "f6": "80% Profit Split Share",
+                    "f7": "100% Refundable Fee"
+                }
+            },
+            "enterprise": {
+                "name": "$200,000 Account",
+                "description": "A larger simulated account evaluation for experienced, rules-focused traders.",
+                "cta": "Select $200K Challenge",
+                "features": {
+                    "f1": "$200,000 Simulated Balance",
+                    "f2": "8% Phase 1 / 5% Phase 2 Target",
+                    "f3": "5% Max Daily Drawdown",
+                    "f4": "10% Max Total Drawdown",
+                    "f5": "Advanced simulated progression path",
+                    "f6": "90% Profit Split Share",
+                    "f7": "Dedicated Risk Manager Support",
+                    "f8": "Weekend holding & News permitted"
+                }
+            },
+            "features": {
+                "f6": "A/B testing tools",
+                "f7": "Custom reports",
+                "f8": "Custom integrations"
+            }
+        },
+        "comparison": {
+            "title": "Compare Challenge Parameters",
+            "description": "Analyze drawdown rules, targets, and profit structures for each evaluation package.",
+            "features": "Parameters",
+            "starter": "$25K Account",
+            "growth": "$100K Account",
+            "enterprise": "$200K Account",
+            "custom": "Direct Funded",
+            "featuresCount": "rules",
+            "categories": {
+                "core": "Simulated Balance & Parameters",
+                "analytics": "Profit Targets & Rules",
+                "integrations": "Trading Assets",
+                "support": "Payouts & Scale",
+                "security": "Security & Platforms"
+            },
+            "featuresList": {
+                "tracked_users": "Starting Balance",
+                "team_members": "Max leverage",
+                "projects": "Evaluation Phases",
+                "data_retention": "Minimum Trading Days",
+                "custom_events": "Maximum Daily Drawdown",
+                "basic_analytics": "Maximum Overall Drawdown",
+                "advanced_analytics": "Phase 1 Profit Target",
+                "funnel_analysis": "Phase 2 Profit Target",
+                "cohort_analysis": "Profit Split Share",
+                "ab_testing": "Scaling Plan Max",
+                "custom_reports": "Refundable Fee Option",
+                "realtime_dashboard": "Expert Advisors (EAs) Allowed",
+                "predictive_analytics": "News Trading Allowed",
+                "api_access": "Weekend Holding Allowed",
+                "webhooks": "Forex Majors & Minors",
+                "slack_integration": "Indices & Commodities",
+                "zapier_integration": "Crypto Trading Supported",
+                "custom_integrations": "Payout Cycle Frequency",
+                "data_export": "Direct Dashboard Analytics",
+                "email_support": "24/7 Discord Support",
+                "priority_support": "Live Chat Priority",
+                "phone_support": "VIP Analyst Access",
+                "dedicated_manager": "Dedicated Risk Manager",
+                "onboarding_training": "Drawdown resetting options",
+                "sla_guarantee": "Payout Processing SLA",
+                "ssl_encryption": "Secure Trade Executions",
+                "two_factor_auth": "IP Restrictions Safe",
+                "sso": "Platform Data Connection",
+                "audit_logs": "Trading History Export",
+                "custom_permissions": "Custom Risk profiles",
+                "hipaa_compliance": "Audited Liquidity Pool",
+                "soc2_compliance": "Program Review Standards"
+            }
+        },
+        "faq": {
+            "title": "Challenge FAQ",
+            "description": "Got questions about drawdown rules, evaluation phases, or payouts? We have answers.",
+            "items": {
+                "q1": "What happens if I breach a drawdown limit?",
+                "a1": "If you breach the 5% daily drawdown or 10% total drawdown limit, the challenge account is failed. However, you can reset the account at a discounted registration fee anytime.",
+                "q2": "When is my evaluation fee refunded?",
+                "a2": "Eligible evaluation fees may be returned after a successful evaluation outcome and an approved first performance reward, subject to program terms.",
+                "q3": "What payment and payout methods are supported?",
+                "a3": "We support major credit cards, bank transfers, and cryptocurrencies (USDT, BTC, ETH) for registration fees and fast payout distributions.",
+                "q4": "Are there minimum or maximum trading day limits?",
+                "a4": "There are zero maximum trading day limits. You can take as long as you need to pass. The minimum trading requirement is only 4 active trading days per phase.",
+                "q5": "Can I use Expert Advisors (EAs) and copy trade?",
+                "a5": "Yes! EAs, indicators, and copy trading are permitted as long as they represent unique trading strategies and do not involve latency arbitrage or hedging.",
+                "q6": "How often can I request a profit payout?",
+                "a6": "Participants who successfully complete an evaluation may request eligible performance rewards according to the published program schedule and terms."
+            }
+        },
+        "cta": {
+            "title": "Need a custom solution?",
+            "description": "Our team can help you build a tailored analytics solution that fits your specific requirements and scales with your business.",
+            "button": "Talk to Sales"
+        }
+    }
+}

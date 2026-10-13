@@ -1,0 +1,283 @@
+{
+    "HomePage": {
+        "title": "ابدأ مجانًا، وتوسع بذكاء",
+        "description": "اختر الخطة المثالية لشركتك الناشئة. ابدأ مجانًا وقم بالترقية مع نموك. جميع الخطط تتضمن ميزات التحليلات الأساسية."
+    },
+    "HeroSection": {
+        "badge": "برنامج تقييم المهارات",
+        "title1": "طوّر مهاراتك.",
+        "title2": "أثبت ثباتك.",
+        "description": "طوّر مهاراتك من خلال تقييم منظم.",
+        "cta": "اختر التقييم",
+        "ctaSecondary": "عرض الإرشادات",
+        "trustBadge": "برامج تعليمية قائمة على المهارات"
+    },
+    "FeaturesSection": {
+        "badge": "المميزات",
+        "title": "نظرة عامة على المميزات",
+        "description": "استكشف الميزات الشاملة التي تميز Arise في التميز في تصميم الويب.",
+        "card1": {
+            "title": "إشعارات ذكية",
+            "description": "احصل على تنبيهات فورية للتحديثات التي تهمك أكثر.",
+            "startedFollowing": "بدأ بمتابعتك",
+            "view": "عرض",
+            "followers": {
+                "name1": "إيما ريتشاردسون",
+                "name2": "ديفيد تشين",
+                "name3": "سارة ميتشل"
+            }
+        },
+        "card2": {
+            "title": "تعاون سهل",
+            "description": "حل مبسط للعمل الجماعي السلس والمنتج.",
+            "teamChat": "دردشة الفريق",
+            "typeMessage": "اكتب رسالة...",
+            "messages": {
+                "msg1": {
+                    "name": "إيما",
+                    "message": "تم رفع التصاميم الجديدة",
+                    "time": "منذ دقيقتين"
+                },
+                "msg2": {
+                    "name": "جيمس",
+                    "message": "رائع! سأراجعها الآن",
+                    "time": "منذ دقيقة"
+                },
+                "msg3": {
+                    "name": "أنت",
+                    "message": "ممتاز، لنتواصل الساعة 3",
+                    "time": "الآن"
+                }
+            }
+        },
+        "card3": {
+            "title": "عزز نموك",
+            "description": "مكّن عملك برؤى وتحليلات مبنية على البيانات.",
+            "growthRate": "معدل النمو",
+            "target": "الهدف",
+            "vsLastQuarter": "مقارنة بالربع السابق"
+        },
+        "card4": {
+            "title": "مقاييس الأداء",
+            "description": "تتبع نجاحك مع تحليلات ورؤى شاملة."
+        },
+        "card5": {
+            "title": "لوحة التحليلات",
+            "description": "ابق في المقدمة مع تصور البيانات والتقارير في الوقت الفعلي.",
+            "searchPlaceholder": "الأول"
+        }
+    },
+    "CompaniesSection": {
+        "title": "موثوق به من قبل الشركات الرائدة حول العالم"
+    },
+    "StatisticsSection": {
+        "badge": "نتائج مثبتة",
+        "title": "أرقام تتحدث",
+        "description": "اكتشف لماذا تختار آلاف الشركات الناشئة منصتنا لتسريع نموها واتخاذ قرارات مبنية على البيانات",
+        "stats": {
+            "stat1": {
+                "label": "شركات ناشئة نامية",
+                "description": "يثقون بمنصتنا حول العالم"
+            },
+            "stat2": {
+                "label": "متوسط النمو",
+                "description": "زيادة الإيرادات في 6 أشهر"
+            },
+            "stat3": {
+                "label": "ضمان التشغيل",
+                "description": "موثوقية على مستوى المؤسسات"
+            }
+        }
+    },
+    "PricesSection": {
+        "badge": "خطط الأسعار",
+        "title": "ابدأ مجانًا، وتوسع بذكاء",
+        "description": "اختر الخطة المثالية لشركتك الناشئة. ابدأ مجانًا وقم بالترقية مع نموك. جميع الخطط تتضمن ميزات التحليلات الأساسية.",
+        "perMonth": "/شهر",
+        "billingNote": "يتم الفوترة شهريًا، إلغاء في أي وقت",
+        "usedByTeams": "يستخدمه {count} فريق",
+        "whatsIncluded": "ما يتضمنه:",
+        "customSolutions": {
+            "title": "هل تحتاج حلول مخصصة؟",
+            "description": "احصل على حلول تحليلات مخصصة وتكاملات مخصصة ودعم مخصص لعملك المتنامي.",
+            "cta": "تواصل مع المبيعات"
+        },
+        "categories": {
+            "all": "جميع الميزات",
+            "design": "التصميم",
+            "development": "التطوير",
+            "support": "الدعم",
+            "growth": "النمو"
+        },
+        "plans": {
+            "starter": {
+                "name": "المبتدئ",
+                "description": "مثالي للفرق الصغيرة التي تبدأ في تحليلات المستخدمين وتتبع النمو",
+                "cta": "ابدأ التجربة المجانية",
+                "features": {
+                    "f1": "حتى 10 آلاف مستخدم متابع",
+                    "f2": "لوحة تحليلات أساسية",
+                    "f3": "إشعارات بالبريد الإلكتروني",
+                    "f4": "تتبع تطبيقات الجوال",
+                    "f5": "احتفاظ بالبيانات لمدة 7 أيام"
+                }
+            },
+            "growth": {
+                "name": "النمو",
+                "description": "تحليلات متقدمة ورؤى للشركات المتوسعة مع تتبع شامل للمستخدمين",
+                "cta": "اختر النمو",
+                "badge": "الأكثر شعبية",
+                "features": {
+                    "f1": "حتى 100 ألف مستخدم متابع",
+                    "f2": "تحليلات ورؤى متقدمة",
+                    "f3": "إشعارات فورية",
+                    "f4": "وصول API وتكاملات",
+                    "f5": "احتفاظ بالبيانات لمدة 90 يوم",
+                    "f6": "أدوات اختبار A/B",
+                    "f7": "تقارير مخصصة"
+                }
+            },
+            "enterprise": {
+                "name": "المؤسسات",
+                "description": "حل تحليلات كامل للمنظمات الكبيرة مع تتبع غير محدود ودعم مميز",
+                "cta": "تواصل مع المبيعات",
+                "badge": "المؤسسات",
+                "features": {
+                    "f1": "مستخدمون غير محدودين",
+                    "f2": "منشئ لوحة تحكم مخصص",
+                    "f3": "دعم أولوية 24/7",
+                    "f4": "API متقدم وwebhooks",
+                    "f5": "احتفاظ غير محدود بالبيانات",
+                    "f6": "حلول العلامة البيضاء",
+                    "f7": "مدير نجاح مخصص"
+                }
+            }
+        },
+        "modal": {
+            "title": "دعنا نناقش مشروعك",
+            "description": "هل أنت مستعد للبدء مع باقة {planName}؟ تواصل معنا لمناقشة متطلباتك المحددة والحصول على جدول زمني مفصل للمشروع.",
+            "cta": "تواصل معنا الآن"
+        }
+    },
+    "TestimonialsSection": {
+        "badge": "الشهادات",
+        "title": "محبوب من الآلاف",
+        "description": "اكتشف ما يقوله عملاؤنا عن تجربتهم مع منصة التحليلات الخاصة بنا",
+        "at": "في",
+        "testimonials": {
+            "t1": {
+                "name": "سارة تشين",
+                "role": "مؤسسة",
+                "company": "تك فلو",
+                "content": "غيّرت منصة التحليلات هذه طريقة فهمنا للمستخدمين. ساعدتنا الرؤى على زيادة التحويلات بنسبة 240% في 3 أشهر فقط."
+            },
+            "t2": {
+                "name": "ماركوس رودريغيز",
+                "role": "مدير منتج",
+                "company": "غروث لاب",
+                "content": "البيانات الفورية ولوحة التحكم البديهية جعلت من السهل على فريقنا بأكمله اتخاذ قرارات مبنية على البيانات. تغيير جذري حقاً."
+            },
+            "t3": {
+                "name": "إيميلي واتسون",
+                "role": "رئيسة تنفيذية",
+                "company": "ستارت أب XYZ",
+                "content": "أخيراً، أداة تحليلات لا تتطلب شهادة دكتوراه لفهمها. الرؤى التلقائية توفر لنا ساعات كل أسبوع."
+            },
+            "t4": {
+                "name": "ديفيد بارك",
+                "role": "قائد النمو",
+                "company": "سكيل أب",
+                "content": "ميزات تقسيم المستخدمين مذهلة. يمكننا الآن استهداف حملاتنا بدقة ورؤية نتائج فورية."
+            },
+            "t5": {
+                "name": "ليزا طومسون",
+                "role": "مديرة تسويق",
+                "company": "إينوفيت كورب",
+                "content": "أفضل استثمار قمنا به لشركتنا الناشئة. ساعدنا تتبع العائد على الاستثمار وتحليل المسار على تحسين عملية المبيعات بالكامل."
+            },
+            "t6": {
+                "name": "أليكس كومار",
+                "role": "رئيس قسم التقنية",
+                "company": "ديف كو",
+                "content": "تكامل نظيف، ميزات قوية، ودعم ممتاز. تمكن فريق التطوير لدينا من تنفيذه في أقل من يوم."
+            }
+        }
+    },
+    "CertificatesSection": {
+        "badge": "شهادات السحب",
+        "title": "كل عملية سحب موثّقة",
+        "description": "كل عملية سحب تصدرها Range4ex ترافقها شهادة موقّعة تحمل اسم المتداول والمبلغ.",
+        "hint": "اسحب أو استخدم الأسهم للتصفح."
+    },
+    "FaqSection": {
+        "badge": "Rulebook FAQ",
+        "title": "Trading rules, explained clearly",
+        "description": "Key answers from the official rules page covering challenge types, drawdown, conduct, payouts, and account policies.",
+        "searchPlaceholder": "Search rules...",
+        "noResults": "No matching rule questions found. Try a different search term or category.",
+        "showMore": "Show {count} More",
+        "showLess": "Show Less",
+        "categories": {
+            "all": "All",
+            "programs": "Programs",
+            "drawdown": "Drawdown",
+            "conduct": "Conduct",
+            "payouts": "Payouts",
+            "account": "Account"
+        },
+        "faqs": {
+            "q1": {
+                "question": "What trading programs are offered?",
+                "answer": "Range4ex offers exactly three account types: Two Step, One Step, and Instant. Evaluation paths use defined targets, while Instant begins in the performance stage under tighter risk rules."
+            },
+            "q2": {
+                "question": "What profit targets apply to each plan?",
+                "answer": "Two Step uses an 8% Phase 1 target and 5% Phase 2 target. One Step uses a single 10% target. Instant has no evaluation target."
+            },
+            "q3": {
+                "question": "How is Daily Drawdown calculated?",
+                "answer": "Daily Drawdown is equity-based. The permitted daily loss is a fixed percentage of the initial account size, resets at 00:00 server time, and does not move upward with profits."
+            },
+            "q4": {
+                "question": "What are the overall drawdown limits?",
+                "answer": "All overall drawdown is static and equity-based: Two Step is 10%, One Step is 6%, and Instant is 5%. Each breach floor is fixed from the initial account size and never trails profits."
+            },
+            "q5": {
+                "question": "Is news trading allowed?",
+                "answer": "Opening or closing a position on an affected instrument is not allowed within 2 minutes before or after a high-impact news release. Profit generated during that restricted window is removed as a soft breach if no drawdown breach also occurred."
+            },
+            "q6": {
+                "question": "Are Expert Advisors and automation allowed?",
+                "answer": "Personally coded automation is allowed only when it represents the trader own strategy and does not exploit latency, tick scalping, or unrealistic execution. Commercial or shared EAs sold to multiple traders are prohibited."
+            },
+            "q7": {
+                "question": "What is the funded-stage profit split?",
+                "answer": "The standard Performance Fee split is 80% to the trader and 20% to the firm. Once an account reaches the Funded Stage, drawdown, leverage, and conduct rules continue, but no further profit target applies."
+            },
+            "q8": {
+                "question": "When can a funded trader request a payout?",
+                "answer": "Approved payouts are processed within 2 to 5 business days. The first funded payout requires at least 5 trading days and a minimum profit. Open positions must be closed before submitting a payout request."
+            },
+            "q9": {
+                "question": "When is KYC required?",
+                "answer": "Identity verification is required before the first payout is released on any account. The person who completes KYC must be the person placing trades on the account."
+            },
+            "q10": {
+                "question": "Are evaluation fees refundable?",
+                "answer": "Evaluation fees for Two Step and One Step accounts may be refunded with the first successful payout, depending on the firm commercial model. Instant fees are non-refundable because there is no evaluation gate."
+            }
+        }
+    },
+    "CtaSection": {
+        "badge": "انتشارنا العالمي",
+        "title": "أين نعمل",
+        "description": "استكشف تواجدنا حول العالم وشاهد أين تُحدث قوالبنا وخدماتنا تأثيرًا.",
+        "contactForm": {
+            "title": "هل أنت مستعد للبدء؟",
+            "description": "انضم إلى أكثر من {count} شركة ناشئة تستخدم منصتنا التحليلية للنمو بذكاء.",
+            "emailPlaceholder": "أدخل عنوان بريدك الإلكتروني",
+            "cta": "ابدأ مجانًا",
+            "disclaimer": "لا حاجة لبطاقة ائتمان • تجربة مجانية لمدة 14 يومًا"
+        }
+    }
+}

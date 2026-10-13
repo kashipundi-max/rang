@@ -1,0 +1,12 @@
+/* ============================================
+   Font Definitions (@font-face)
+   Single variable font replaces all individual weights
+   ============================================ */
+
+@font-face {
+    font-family: "Clash Display";
+    src: url("/font/clash-display/ClashDisplay-Variable.woff2") format("woff2");
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}

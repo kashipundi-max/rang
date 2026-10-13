@@ -1,0 +1,137 @@
+{
+    "SignUpPage": {
+        "meta": {
+            "title": "Δημιουργία Λογαριασμού - Εγγραφή",
+            "description": "Δημιουργήστε τον λογαριασμό σας για να ξεκινήσετε."
+        },
+        "form": {
+            "title": "Εγγραφή Προφίλ Trader",
+            "subtitle": "Start your 14-day free trial. No credit card required.",
+            "name": {
+                "label": "Ονοματεπώνυμο",
+                "placeholder": "Εισαγάγετε το ονοματεπώνυμό σας"
+            },
+            "email": {
+                "label": "Διεύθυνση Email",
+                "placeholder": "Εισαγάγετε το email σας"
+            },
+            "password": {
+                "label": "Κωδικός πρόσβασης",
+                "placeholder": "Δημιουργήστε έναν κωδικό"
+            },
+            "confirmPassword": {
+                "label": "Επιβεβαίωση κωδικού",
+                "placeholder": "Επιβεβαιώστε τον κωδικό σας"
+            },
+            "referralCode": {
+                "label": "Κωδικός Παραπομπής (Προαιρετικό)",
+                "placeholder": "Εισαγάγετε τον κωδικό παραπομπής"
+            },
+            "terms": {
+                "label": "Συμφωνώ με τους",
+                "link": "Όρους Χρήσης"
+            },
+            "showPassword": "Show password",
+            "hidePassword": "Hide password",
+            "submit": "Εγγραφή",
+            "submitting": "Δημιουργία λογαριασμού...",
+            "success": "Ο λογαριασμός δημιουργήθηκε!",
+            "error": "Κάτι πήγε στραβά",
+            "hasAccount": "Έχετε ήδη λογαριασμό;",
+            "signIn": "Σύνδεση",
+            "validation": {
+                "nameRequired": "Name is required",
+                "nameMin": "Name must be at least 2 characters",
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email",
+                "passwordRequired": "Password is required",
+                "passwordMin": "Password must be at least 8 characters",
+                "passwordUppercase": "Password must contain an uppercase letter",
+                "passwordLowercase": "Password must contain a lowercase letter",
+                "passwordNumber": "Password must contain a number",
+                "passwordSpecial": "Password must contain a special character",
+                "confirmPasswordRequired": "Please confirm your password",
+                "confirmPasswordMatch": "Passwords do not match",
+                "termsRequired": "You must accept the terms of service"
+            }
+        },
+        "social": {
+            "divider": "or use email",
+            "google": "Continue with Google",
+            "github": "Continue with GitHub",
+            "twitter": "Continue with X"
+        }
+    },
+    "SignInPage": {
+        "meta": {
+            "title": "Σύνδεση",
+            "description": "Συνδεθείτε στον λογαριασμό σας για να αποκτήσετε πρόσβαση."
+        },
+        "form": {
+            "title": "Κονσόλα Trader",
+            "subtitle": "Sign in to continue to your dashboard.",
+            "email": {
+                "label": "Διεύθυνση Email",
+                "placeholder": "Εισαγάγετε το email σας"
+            },
+            "password": {
+                "label": "Κωδικός πρόσβασης",
+                "placeholder": "Εισαγάγετε τον κωδικό σας"
+            },
+            "rememberMe": "Να με θυμάσαι",
+            "forgotPassword": "Ξέχασες τον κωδικό σου;",
+            "showPassword": "Show password",
+            "hidePassword": "Hide password",
+            "submit": "Είσοδος στην Κονσόλα",
+            "submitting": "Σύνδεση...",
+            "success": "Καλώς ορίσατε ξανά!",
+            "error": "Μη έγκυρα στοιχεία",
+            "noAccount": "Δεν έχετε λογαριασμό;",
+            "signUp": "Εγγραφή τώρα",
+            "validation": {
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email",
+                "passwordRequired": "Password is required"
+            }
+        },
+        "social": {
+            "divider": "or use email",
+            "google": "Continue with Google",
+            "github": "Continue with GitHub",
+            "twitter": "Continue with X"
+        }
+    },
+    "ForgotPasswordPage": {
+        "meta": {
+            "title": "Ξέχασα τον κωδικό μου",
+            "description": "Επαναφέρετε τον κωδικό σας."
+        },
+        "form": {
+            "title": "Ξέχασες τον κωδικό σου;",
+            "subtitle": "Enter your email and we'll send you a reset link.",
+            "email": {
+                "label": "Διεύθυνση Email",
+                "placeholder": "Εισαγάγετε το email σας"
+            },
+            "submit": "Αποστολή συνδέσμου",
+            "submitting": "Αποστολή...",
+            "success": "Ο σύνδεσμος στάλθηκε!",
+            "error": "Κάτι πήγε στραβά",
+            "backToSignIn": "Επιστροφή στη σύνδεση",
+            "validation": {
+                "emailRequired": "Email is required",
+                "emailInvalid": "Please enter a valid email"
+            }
+        },
+        "social": {
+            "divider": "or use email",
+            "google": "Continue with Google",
+            "github": "Continue with GitHub",
+            "twitter": "Continue with X"
+        }
+    },
+    "AuthLayout": {
+        "switchToDark": "Εναλλαγή σε σκοτεινή λειτουργία",
+        "switchToLight": "Εναλλαγή σε φωτεινή λειτουργία"
+    }
+}

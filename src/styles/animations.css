@@ -1,0 +1,326 @@
+/* ============================================
+   Animation Keyframes and Utility Classes
+   ============================================ */
+
+/* Badge shine animation */
+@keyframes badge-shine {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    45% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Light effect animations */
+@keyframes pulse-slow {
+
+    0%,
+    100% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes pulse-slow-reverse {
+
+    0%,
+    100% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 0.1;
+    }
+}
+
+/* Spotlight animations */
+@keyframes spotlight-pulse {
+    0% {
+        opacity: var(--base-opacity, 0.7);
+    }
+
+    50% {
+        opacity: calc(var(--base-opacity, 0.7) * 1.5);
+    }
+
+    100% {
+        opacity: var(--base-opacity, 0.7);
+    }
+}
+
+@keyframes spotlight-sway {
+    0% {
+        transform: perspective(500px) rotateX(0deg) skewX(0deg);
+    }
+
+    50% {
+        transform: perspective(500px) rotateX(0.8deg) skewX(2deg);
+    }
+
+    100% {
+        transform: perspective(500px) rotateX(0deg) skewX(0deg);
+    }
+}
+
+@keyframes spotlight-flicker {
+    0% {
+        opacity: var(--base-opacity, 0.7);
+        filter: blur(var(--base-blur, 35px));
+    }
+
+    25% {
+        opacity: calc(var(--base-opacity, 0.7) * 0.7);
+        filter: blur(calc(var(--base-blur, 35px) * 1.2));
+    }
+
+    50% {
+        opacity: calc(var(--base-opacity, 0.7) * 1.4);
+        filter: blur(calc(var(--base-blur, 35px) * 0.8));
+    }
+
+    75% {
+        opacity: calc(var(--base-opacity, 0.7) * 0.9);
+        filter: blur(var(--base-blur, 35px));
+    }
+
+    100% {
+        opacity: var(--base-opacity, 0.7);
+        filter: blur(var(--base-blur, 35px));
+    }
+}
+
+@keyframes spotlight-move {
+    0% {
+        left: var(--base-left, 0);
+    }
+
+    50% {
+        left: calc(var(--base-left, 0) + 2%);
+    }
+
+    100% {
+        left: var(--base-left, 0);
+    }
+}
+
+/* Glow animation */
+@keyframes glow-vertical {
+    0% {
+        opacity: 0.25;
+        box-shadow: 0 0 15px 3px rgba(148, 163, 184, 0.15);
+    }
+
+    50% {
+        opacity: 0.45;
+        box-shadow: 0 0 25px 5px rgba(148, 163, 184, 0.35);
+    }
+
+    100% {
+        opacity: 0.25;
+        box-shadow: 0 0 15px 3px rgba(148, 163, 184, 0.15);
+    }
+}
+
+/* Fade animations */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ============================================
+   Animation Utility Classes
+   ============================================ */
+
+.animate-pulse-slow {
+    animation: pulse-slow 8s ease-in-out infinite;
+}
+
+.animate-pulse-slow-reverse {
+    animation: pulse-slow-reverse 9s ease-in-out infinite;
+}
+
+.animate-spotlight-pulse {
+    animation: spotlight-pulse 6s ease-in-out infinite;
+}
+
+.animate-spotlight-sway {
+    animation: spotlight-sway 12s ease-in-out infinite;
+}
+
+.animate-spotlight-flicker {
+    animation: spotlight-flicker 15s ease-in-out infinite;
+}
+
+.animate-glow-vertical {
+    animation: glow-vertical 10s ease-in-out infinite;
+}
+
+.animate-fade-in {
+    animation: fade-in 0.5s ease-out forwards;
+}
+
+.animate-fade-in-up {
+    animation: fade-in-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Spotlight realistic animations (moved from inline styles)
+
+   These deliberately animate ONLY transform and opacity. They used to animate
+   `filter: blur()` as well, cycling the radius by +/-20% every few seconds.
+   transform and opacity are composited on the GPU for free; a changing blur
+   radius is not - it forces the browser to re-rasterize the whole layer every
+   frame. The hero stacks 15 of these cones, each 25-55vw wide with
+   mix-blend-mode: screen on top, looping forever, so the compositor never got
+   an idle frame and every other section on the page scrolled badly.
+
+   The static blur still comes from the inline `filter` on each cone, so the
+   light keeps its soft edge - only the per-frame re-rasterization is gone.
+   The old brightness() pulse is folded into the opacity curve, which is free.
+
+   For the same reason they carry no scaleX/scaleY either. Translating a
+   blurred layer re-uses its cached texture and costs nothing; *scaling* one
+   cannot - the blur has to be re-rendered at the new size on every frame - so
+   a 5% scaleY was quietly re-rasterizing 15 large blurred cones continuously.
+   Horizontal sway plus the opacity curve reads the same at these amplitudes. */
+@keyframes realistic-pulse {
+    0%, 100% {
+        opacity: var(--base-opacity);
+    }
+    25% {
+        opacity: calc(var(--base-opacity) * 0.6);
+    }
+    50% {
+        opacity: calc(var(--base-opacity) * 1.35);
+    }
+    75% {
+        opacity: calc(var(--base-opacity) * 0.75);
+    }
+}
+
+@keyframes realistic-sway {
+    0%, 100% {
+        transform: translateX(0%);
+        opacity: var(--base-opacity);
+    }
+    25% {
+        transform: translateX(-8%);
+        opacity: calc(var(--base-opacity) * 0.85);
+    }
+    50% {
+        transform: translateX(0%);
+        opacity: calc(var(--base-opacity) * 1.18);
+    }
+    75% {
+        transform: translateX(8%);
+        opacity: calc(var(--base-opacity) * 0.8);
+    }
+}
+
+/* Opacity only. This drives the spotlight cones' entrance, and every one of
+   them is a large blurred layer - so the scaleY/scaleX this used to animate
+   forced all 18 of them to re-rasterize their blur on every frame for the
+   full 3s, landing squarely in the window where the first impression forms. */
+@keyframes smooth-fade-in {
+    0% { opacity: 0; }
+    20% { opacity: 0.1; }
+    40% { opacity: 0.3; }
+    70% { opacity: 0.7; }
+    100% { opacity: 1; }
+}
+
+.animate-smooth-fade-in {
+    animation: smooth-fade-in 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    opacity: 0;
+}
+
+/* Shimmer effect for buttons */
+@keyframes shimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.animate-shimmer {
+    animation: shimmer 2s ease-in-out infinite;
+}
+
+/* Payment method marquee */
+@keyframes payment-methods-scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.payment-methods-mask {
+    mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 8%,
+        black 92%,
+        transparent
+    );
+    -webkit-mask-image: linear-gradient(
+        to right,
+        transparent,
+        black 8%,
+        black 92%,
+        transparent
+    );
+}
+
+.payment-methods-track {
+    display: flex;
+    width: max-content;
+    animation: payment-methods-scroll 28s linear infinite;
+    will-change: transform;
+}
+
+.payment-methods-track:hover {
+    animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .payment-methods-track {
+        animation: none;
+    }
+
+    .payment-methods-mask {
+        overflow-x: auto;
+        mask-image: none;
+        -webkit-mask-image: none;
+    }
+}

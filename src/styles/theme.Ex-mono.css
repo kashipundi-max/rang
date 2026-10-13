@@ -1,0 +1,84 @@
+/* Theme Variables - Tailwind CSS v4 */
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+
+    /* Brand Image Filters - transforms blue images to match brand color */
+    /* Adjust these values when changing brand colors */
+    /* Current: No transformation (native blue) */
+    --brand-hue-rotate: hue-rotate(0deg);
+    --brand-saturate: saturate(1);
+    --brand-brightness: brightness(1);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+@theme {
+    /* Base Colors */
+    --color-white: #fff;
+    --color-black: #000;
+
+    /* Text Colors */
+    --color-text-primary: #f3f3f3;
+    --color-text-secondary: #a5a5a5;
+    --color-text-muted: #acacac;
+    --color-text-body: #c5c5c5;
+
+    /* Background Colors */
+    --color-bg-dark: #09090b;
+    --color-bg-card: #18181b;
+
+    /* UI Colors (Neutral) */
+    --color-syntask-bg: #27272a;
+    --color-surface-hover: #3f3f46;
+    --color-border-primary: #52525b;
+    --color-border-secondary: #3f3f46;
+
+    /* Brand Colors - Monochrome Theme */
+    --color-brand-primary: #e4e4e7;
+    --color-brand-primary-light: #ffffff;
+    --color-brand-surface: #27272a;
+    --color-brand-border: #3f3f46;
+    --color-brand-glow: #18181b;
+    --color-accent: #ffffff;
+
+    /* Button Colors */
+    --color-button-text: #09090b;
+
+    /* Error/Warning Colors */
+    --color-error: #f59e0b;
+    --color-error-light: #fbbf24;
+
+    /* Feature Card Colors - Semantic colors for feature cards */
+    --color-card-bg: #09090b;
+    --color-card-bg-inner: #09090b;
+    --color-card-bg-gradient-start: #18181b;
+    --color-card-overlay: rgba(24, 24, 27, 0.95);
+    --color-card-surface: #18181b;
+    --color-card-surface-hover: #27272a;
+    --color-card-border: #27272a;
+    --color-card-border-hover: rgba(228, 228, 231, 0.4);
+    --color-card-highlight-bg: #3f3f46;
+    --color-card-highlight-border: #52525b;
+    --color-card-grid: #52525b;
+    --color-card-glow: rgba(255, 255, 255, 0.6);
+    --color-card-glow-secondary: rgba(228, 228, 231, 0);
+    --color-card-spotlight: rgba(228, 228, 231, 0.15);
+    --color-card-particle: rgba(255, 255, 255, 0.4);
+    --color-card-accent: #ffffff;
+    --color-card-accent-muted: #e4e4e7;
+
+    /* Font Families */
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+    --font-clash-display: "Clash Display", "Noto Sans Arabic", system-ui, sans-serif;
+    --font-dm-sans: "DM Sans", "Noto Sans Arabic", system-ui, sans-serif;
+    --font-arabic: "Noto Sans Arabic", system-ui, sans-serif;
+    --font-almarai: "Almarai", "Noto Sans Arabic", system-ui, sans-serif;
+}

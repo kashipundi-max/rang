@@ -1,0 +1,355 @@
+/* Tailwind CSS v4 */
+@import "tailwindcss";
+
+/* Font @font-face definitions (no external imports) */
+@import "./fonts.css";
+
+/* Theme variables and design tokens */
+@import "./theme.css";
+
+/* Base element styles */
+@import "./base.css";
+
+/* Shared card / panel surfaces */
+@import "./surface.css";
+
+/* Animation keyframes and utility classes */
+@import "./animations.css";
+
+/* Rendering and device-performance safeguards */
+@import "./performance.css";
+
+/* Depth carousel (certificates section) */
+@import "./depth-carousel.css";
+
+/* Auth screens light/dark appearance */
+@import "./auth.css";
+
+/* Landing + auth skin (navy / sky blue) */
+@import "./bg-skin.css";
+
+/* ============================================
+   Global Styles Entry Point
+   
+   This file imports all modular CSS files.
+   Each file has a single purpose for better
+   organization and maintainability.
+   ============================================ */
+
+/* Premium Range4ex Glassmorphic Toast Styling (Sonner Overrides) */
+[data-sonner-toast] {
+  background: rgba(10, 10, 12, 0.75) !important;
+  backdrop-filter: blur(20px) saturate(1.8) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(1.8) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px !important;
+  color: #f3f3f3 !important;
+  font-family: system-ui, -apple-system, sans-serif !important;
+  padding: 14px 18px !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6) !important;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+
+[data-sonner-toast][data-type="success"] {
+  border-left: 4px solid #10b981 !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(16, 185, 129, 0.15) !important;
+}
+
+[data-sonner-toast][data-type="error"] {
+  border-left: 4px solid #f43f5e !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(244, 63, 94, 0.15) !important;
+}
+
+[data-sonner-toast][data-type="info"] {
+  border-left: 4px solid #6366f1 !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(99, 102, 241, 0.15) !important;
+}
+
+[data-sonner-toast] [data-close-button] {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: #a5a5a5 !important;
+  transition: all 0.2s ease !important;
+}
+
+[data-sonner-toast] [data-close-button]:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+  color: #fff !important;
+}
+
+[data-sonner-toast] [data-icon] {
+  margin-right: 6px !important;
+}
+
+[data-sonner-toast] [data-title] {
+  font-weight: 600 !important;
+  font-size: 13px !important;
+}
+
+[data-sonner-toast] [data-description] {
+  color: #a5a5a5 !important;
+  font-size: 11px !important;
+  margin-top: 2px !important;
+}
+
+/* Landing appearance toggle: selected sections become light while the hero,
+   pricing, FAQ, CTA, and footer retain the active terminal skin. */
+html.landing-light .landing-mode-section {
+  --color-text-primary: #111827;
+  --color-text-secondary: #334155;
+  --color-text-muted: #64748b;
+  --color-text-body: #475569;
+  --color-bg-dark: #ffffff;
+  --color-bg-card: #f8fafc;
+  --color-syntask-bg: #f1f5f9;
+  --color-surface-hover: #e2e8f0;
+  --color-border-primary: #cbd5e1;
+  --color-border-secondary: #e2e8f0;
+  --color-card-bg: #ffffff;
+  --color-card-bg-inner: #f8fafc;
+  --color-card-bg-gradient-start: #f1f5f9;
+  --color-card-overlay: rgba(255, 255, 255, 0.96);
+  --color-card-surface: #ffffff;
+  --color-card-surface-hover: #f8fafc;
+  --color-card-border: #e2e8f0;
+  background-color: #ffffff !important;
+  color: #111827;
+}
+
+html.landing-light .landing-mode-section .text-white,
+html.landing-light .landing-mode-section .text-gray-200 {
+  color: #111827 !important;
+}
+
+html.landing-light .landing-mode-section .text-gray-400 {
+  color: #64748b !important;
+}
+
+html.landing-light .landing-mode-section .bg-gray-900\/20 {
+  background-color: rgba(248, 250, 252, 0.82) !important;
+  border: 1px solid #e2e8f0;
+}
+
+
+html.landing-light .landing-mode-section .text-neutral-400 {
+  color: #475569 !important;
+}
+
+html.landing-light .landing-mode-section [class*="border-white"] {
+  border-color: #e2e8f0 !important;
+}
+
+html.landing-light .landing-mode-section [class*="bg-white/"] {
+  background-color: rgba(248, 250, 252, 0.92) !important;
+}
+
+
+/* Pricing-specific contrast for the white landing appearance. */
+html.landing-light .pricing-section {
+  --color-brand-primary-light: color-mix(
+    in srgb,
+    var(--color-brand-primary) 72%,
+    #0f172a
+  );
+}
+
+html.landing-light .pricing-section .text-text-primary {
+  color: #0f172a !important;
+}
+
+html.landing-light .pricing-section .text-text-body {
+  color: #334155 !important;
+}
+
+html.landing-light .pricing-section .text-text-muted {
+  color: #64748b !important;
+}
+
+html.landing-light .pricing-section .text-brand-primary-light {
+  color: color-mix(
+    in srgb,
+    var(--color-brand-primary) 72%,
+    #0f172a
+  ) !important;
+}
+
+html.landing-light .pricing-section .price-card-wrapper {
+  background: #f8fafc !important;
+  border-color: #dbe3ef !important;
+  box-shadow: 0 24px 70px rgba(15, 23, 42, 0.1) !important;
+}
+
+html.landing-light .pricing-section [class*="bg-bg-dark"] {
+  background-color: #ffffff !important;
+}
+
+/* CTA/map treatment in the white landing appearance. */
+html.landing-light .cta-map-section {
+  background-color: #ffffff !important;
+}
+
+html.landing-light .cta-map-section .cta-contact-card {
+  background: linear-gradient(135deg, #ffffff 0%, #faf5ff 52%, #f3e8ff 100%) !important;
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 24px 70px rgba(76, 29, 149, 0.14) !important;
+}
+
+html.landing-light .cta-map-section img[src="/images/world-map.svg"] {
+  filter: brightness(0.58) contrast(1.15) saturate(0.65) !important;
+  opacity: 0.28 !important;
+}
+
+html.landing-light .cta-map-section .range4ex-wordmark .stroke-neutral-200 {
+  stroke: #64748b !important;
+}
+
+/* Unified dashboard and CRM typography. */
+.dashboard-clash-font,
+.dashboard-clash-font * {
+  font-family: "Clash Display", "Noto Sans Arabic", system-ui, sans-serif !important;
+}
+
+/* Dashboard renders instantly: no entrance fades, pulsing skeletons, hover
+   transitions or frosted-glass blur. Set on <html> while the dashboard is
+   mounted so portaled modals are covered too. Spinners keep spinning — they
+   are the only signal that an action is in progress. */
+html.dashboard-static *:not(.animate-spin),
+html.dashboard-static *::before,
+html.dashboard-static *::after {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* Only elements that actually carry a backdrop-blur utility. Never put a
+   backdrop-filter (even blur(0)) on `*`: every element becomes its own
+   compositing layer, which is slower and paints dark boxes behind text. */
+html.dashboard-static [class*="backdrop-blur"] {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+html.dashboard-static * {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.14) transparent;
+}
+
+html.dashboard-static .animate-ping {
+  display: none !important;
+}
+
+/* Desktop trader dashboard renders at 80% — the density the user signed
+   off on at 80% browser zoom — without shrinking phones, which already use a
+   compact layout. `zoom` also scales vh/vw inside the element, so the root
+   is sized to 125% to still fill exactly one screen. */
+@media (min-width: 1024px) {
+  .dashboard-scale {
+    zoom: 0.8;
+    width: 125vw !important;
+    height: 125vh !important;
+  }
+
+  /* Recharts sizes its SVG from getBoundingClientRect (already zoomed), and
+     the zoom is then applied again — charts filled only 80% of their box.
+     Counter-zooming the chart wrapper cancels the double scale. */
+  .dashboard-scale .recharts-wrapper {
+    zoom: 1.25;
+  }
+}
+
+/* Trader dashboard only: one size up from the CRM layer so every tab reads
+   like the account/buy pages — nothing under 13px, bold panel headings. */
+.trader-dashboard main :where(
+  [class~="text-[7px]"],
+  [class~="text-[8px]"],
+  [class~="text-[8.5px]"],
+  [class~="text-[9px]"],
+  [class~="text-[9.5px]"],
+  [class~="text-[10px]"],
+  [class~="text-[11px]"]
+) {
+  font-size: 0.8125rem !important;
+  line-height: 1.2rem !important;
+}
+
+.trader-dashboard main .text-xs {
+  font-size: 0.875rem !important;
+  line-height: 1.3rem !important;
+}
+
+.trader-dashboard main .text-sm {
+  font-size: 0.9375rem !important;
+  line-height: 1.4rem !important;
+}
+
+.trader-dashboard main h1 {
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+}
+
+.trader-dashboard main :where(h2, h3):where(.text-sm, .text-xs, .text-base) {
+  font-size: 1.0625rem !important;
+  font-weight: 700 !important;
+}
+
+/* Readability layer for the trader dashboard and CRM: a clean system sans
+   (no webfont to wait for), bigger small print, bold headings. */
+.crm-portal-readable,
+.crm-portal-readable * {
+  font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans Arabic", sans-serif !important;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+.crm-portal-readable :where(h1, h2, h3, h4, h5, h6) {
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.crm-portal-readable :where(button, input, textarea, select) {
+  font: inherit;
+}
+
+.crm-portal-readable :where(aside button, nav button, th, label) {
+  font-weight: 600;
+}
+
+.crm-portal-readable :where(
+  [class~="text-[7px]"],
+  [class~="text-[8px]"],
+  [class~="text-[8.5px]"],
+  [class~="text-[9px]"],
+  [class~="text-[9.5px]"],
+  [class~="text-[10px]"],
+  [class~="text-[11px]"]
+) {
+  font-size: 0.75rem !important;
+  line-height: 1rem !important;
+}
+
+.crm-portal-readable .text-xs {
+  font-size: 0.8125rem !important;
+  line-height: 1.125rem !important;
+}
+
+/* Dense admin ledgers (AdminTable `dense`) opt back out of the size bump above,
+   so wide grids like the orders table fit without wrapping. */
+.crm-portal-readable .admin-compact .text-xs {
+  font-size: 0.75rem !important;
+  line-height: 1rem !important;
+}
+
+.crm-portal-readable .admin-compact [class~="text-[11px]"] {
+  font-size: 0.6875rem !important;
+  line-height: 0.95rem !important;
+}
+
+.crm-portal-readable :where(
+  [class~="text-neutral-600"],
+  [class~="text-neutral-555"],
+  [class~="text-neutral-550"],
+  [class~="text-neutral-500"],
+  [class~="text-text-muted"]
+) {
+  color: #a3a3a3 !important;
+}

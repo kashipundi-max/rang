@@ -1,0 +1,77 @@
+/* Theme Variables - Tailwind CSS v4 */
+
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+
+    /* Brand Image Filters - transforms blue images to match brand color */
+    /* Adjust these values when changing brand colors */
+    /* Current: No transformation (native blue) */
+    --brand-hue-rotate: hue-rotate(0deg);
+    --brand-saturate: saturate(1);
+    --brand-brightness: brightness(1);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
+
+@theme {
+    /* Base Colors */
+    --color-white: #fff;
+    --color-black: #000;
+
+    /* Text Colors */
+    --color-text-primary: #f3f3f3;
+    --color-text-secondary: #a5a5a5;
+    --color-text-muted: #acacac;
+    --color-text-body: #c5c5c5;
+
+    /* Background Colors */
+    --color-bg-dark: #00020f;
+    --color-bg-card: #00041f;
+
+    /* UI Colors (Neutral) */
+    --color-syntask-bg: #17191c;
+    --color-surface-hover: #23252a;
+    --color-border-primary: #37393c;
+    --color-border-secondary: #23263a;
+
+    /* Brand Colors - Blue Theme */
+    --color-brand-primary: #3b82f6;
+    --color-brand-primary-light: #60a5fa;
+    --color-brand-surface: #1c2660;
+    --color-brand-border: #2a3a80;
+    --color-brand-glow: #0a3375;
+    --color-accent: #ccd8ff;
+
+    /* Feature Card Colors - Semantic colors for feature cards */
+    --color-card-bg: #000610;
+    --color-card-bg-inner: #000610;
+    --color-card-bg-gradient-start: #000f1f;
+    --color-card-overlay: rgba(0, 15, 31, 0.95);
+    --color-card-surface: #0a1520;
+    --color-card-surface-hover: #0f1a2a;
+    --color-card-border: #0e2240;
+    --color-card-border-hover: rgba(59, 130, 246, 0.4);
+    --color-card-highlight-bg: #1a2a40;
+    --color-card-highlight-border: #2a4060;
+    --color-card-grid: #3b5a80;
+    --color-card-glow: rgba(96, 165, 250, 0.6);
+    --color-card-glow-secondary: rgba(59, 130, 246, 0);
+    --color-card-spotlight: rgba(59, 130, 246, 0.15);
+    --color-card-particle: rgba(96, 165, 250, 0.4);
+    --color-card-accent: #60a5fa;
+    --color-card-accent-muted: #3b82f6;
+
+    /* Font Families */
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+    --font-clash-display: "Clash Display", "Noto Sans Arabic", system-ui, sans-serif;
+    --font-dm-sans: "DM Sans", "Noto Sans Arabic", system-ui, sans-serif;
+    --font-arabic: "Noto Sans Arabic", system-ui, sans-serif;
+    --font-almarai: "Almarai", "Noto Sans Arabic", system-ui, sans-serif;
+}

@@ -1,0 +1,101 @@
+{
+  "Header": {
+    "home": "الرئيسية",
+    "products": "التحديات",
+    "resources": "FAQ",
+    "features": "القواعد",
+    "pricing": "الحسابات الممولة",
+    "rules": "القواعد",
+    "blog": "المدونة",
+    "testimonials": "المدفوعات",
+    "faq": "FAQ",
+    "contact": "اتصل بنا",
+    "getStarted": "ابدأ التحدي",
+    "signUp": "تسجيل",
+    "video": "Video",
+    "login": "تسجيل الدخول"
+  },
+  "Footer": {
+    "description": "تداول برأس مالنا وحافظ على ما يصل إلى 90٪ من الأرباح. مصممة للمتداولين المحترفين.",
+    "sections": {
+      "product": "التقييم",
+      "company": "الشركة",
+      "resources": "مصادر التداول",
+      "legal": "قانوني"
+    },
+    "links": {
+      "features": "المميزات",
+      "pricing": "الأسعار",
+      "templates": "القوالب",
+      "integrations": "التكاملات",
+      "about": "عن الشركة",
+      "blog": "المدونة",
+      "careers": "الوظائف",
+      "contact": "اتصل بنا",
+      "documentation": "التوثيق",
+      "page404": "صفحة 404",
+      "page500": "صفحة 500",
+      "page401": "صفحة 401",
+      "privacyPolicy": "سياسة الخصوصية",
+      "termsOfService": "شروط الخدمة",
+      "cookiePolicy": "سياسة ملفات تعريف الارتباط",
+      "gdpr": "GDPR"
+    },
+    "social": {
+      "twitter": "تويتر",
+      "github": "جيت هب",
+      "linkedin": "لينكد إن",
+      "email": "البريد الإلكتروني"
+    },
+    "newsletter": {
+      "title": "ابقَ على اطلاع",
+      "description": "احصل على آخر التحديثات والقوالب ورؤى التصميم.",
+      "placeholder": "أدخل بريدك الإلكتروني",
+      "subscribe": "اشترك"
+    },
+    "copyright": "© {year} Range4ex. جميع الحقوق محفوظة.",
+    "madeWith": "صُنع بـ ❤️ بواسطة",
+    "cta": {
+      "love": "🚀 أعجبك هذا القالب؟",
+      "getSource": "احصل على الكود المصدري الكامل وابدأ البناء اليوم!",
+      "buyTemplate": "اشترِ هذا القالب"
+    }
+  },
+  "Common": {
+    "learnMore": "اعرف المزيد",
+    "viewAll": "عرض الكل",
+    "contactUs": "اتصل بنا",
+    "readMore": "اقرأ المزيد",
+    "loading": "جاري التحميل...",
+    "error": "خطأ",
+    "success": "نجاح"
+  },
+  "NotFoundPage": {
+    "title": "الصفحة غير موجودة",
+    "description": "عذراً! الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+    "backHome": "العودة للرئيسية",
+    "goBack": "رجوع"
+  },
+  "ServerErrorPage": {
+    "title": "خطأ في الخادم",
+    "description": "عذراً! حدث خطأ ما من جانبنا. يرجى المحاولة مرة أخرى لاحقاً.",
+    "backHome": "العودة للرئيسية",
+    "goBack": "رجوع"
+  },
+  "UnauthorizedPage": {
+    "title": "غير مصرح",
+    "description": "ليس لديك إذن للوصول إلى هذه الصفحة. يرجى تسجيل الدخول أو الاتصال بالدعم.",
+    "backHome": "العودة للرئيسية",
+    "goBack": "رجوع"
+  },
+  "ThemeColorSwitcher": {
+    "title": "لون السمة",
+    "description": "اختر نظام الألوان المفضل لديك",
+    "current": "الحالي",
+    "performanceMode": "وضع الأداء",
+    "performanceDescription": "يعطل الرسوم المتحركة الثقيلة لأداء أفضل",
+    "demoWarning": "هذا فقط لأغراض العرض التوضيحي لإظهار إمكانيات تخصيص القالب.",
+    "changeTheme": "تغيير لون السمة",
+    "selectTheme": "اختر سمة {theme}"
+  }
+}

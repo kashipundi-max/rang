@@ -1,0 +1,143 @@
+{
+    "BlogPage": {
+        "meta": {
+            "title": "Trader Blog - Market Insights & Strategies",
+            "description": "Discover the latest forex market analysis, risk management guides, and prop firm strategy reviews."
+        },
+        "hero": {
+            "badge": "Market Blog",
+            "title": "Trader Insights & Updates",
+            "description": "Master drawdown management, trading psychology, and technical analysis with guides from funded traders."
+        },
+        "search": {
+            "placeholder": "Search articles...",
+            "noResults": "No articles found matching your search.",
+            "clearSearch": "Clear search"
+        },
+        "categories": {
+            "all": "All Articles",
+            "analytics": "Risk Management",
+            "growth": "Psychology",
+            "product": "Rules",
+            "engineering": "Strategies",
+            "company": "Announcements"
+        },
+        "posts": {
+            "readMore": "Read More",
+            "minRead": "min read",
+            "by": "By",
+            "publishedOn": "Published on",
+            "featured": "Featured",
+            "trending": "Trending",
+            "new": "New"
+        },
+        "pagination": {
+            "previous": "Previous",
+            "next": "Next",
+            "page": "Page"
+        },
+        "sidebar": {
+            "popularPosts": "Popular Posts",
+            "newsletter": {
+                "title": "Subscribe to Newsletter",
+                "description": "Get the latest articles and insights delivered to your inbox.",
+                "placeholder": "Enter your email",
+                "subscribe": "Subscribe",
+                "success": "Thanks for subscribing!",
+                "privacy": "We respect your privacy. Unsubscribe at any time."
+            },
+            "tags": "Popular Tags"
+        }
+    },
+    "BlogPost": {
+        "meta": {
+            "titleSuffix": " - Blog"
+        },
+        "backToBlog": "Back to Blog",
+        "share": {
+            "title": "Share this article",
+            "twitter": "Share on Twitter",
+            "linkedin": "Share on LinkedIn",
+            "copy": "Copy link",
+            "copied": "Link copied!"
+        },
+        "author": {
+            "about": "About the Author",
+            "follow": "Follow"
+        },
+        "related": {
+            "title": "Related Articles",
+            "description": "Continue reading with these related posts"
+        },
+        "tableOfContents": "Table of Contents",
+        "readingTime": "min read"
+    },
+    "BlogData": {
+        "posts": {
+            "p1": {
+                "title": "The Future of Prop Firm Trading: 2025 Trends",
+                "excerpt": "Discover the emerging trends that will shape proprietary trading in 2025 and beyond. From dynamic scaling plans to multi-asset platforms.",
+                "content": "Proprietary trading has grown exponentially, giving retail traders access to large capital. In this guide, we explore the key trends that will define the prop firm industry in 2025.\n\n## Evolution of Drawdown Rules\n\nProp firms are shifting away from rigid, time-limited challenges toward flexible evaluation parameters. Traders are looking for accounts with no maximum trading day limits, allowing them to trade at their own pace without feeling rushed into making mistakes.\n\n### Scaling Plan Growth\n\nFunding scale potential is becoming the primary differentiator. Firms are scaling balances automatically as long as consistent risk parameters are maintained, allowing skilled traders to manage millions in buying power.\n\n## Conclusion\n\nThe future of prop trading is bright. Traders who focus on disciplined risk management, consistency, and proper leverage will succeed at scale."
+            },
+            "p2": {
+                "title": "How I Passed My $100K Challenge and Received a $34,000 Payout",
+                "excerpt": "A deep dive into the strategies, risk management, and trading psychology used to pass the evaluation challenge and scale trading profits.",
+                "content": "Passing a prop firm evaluation requires absolute discipline. In this guide, I share my experience passing the $100K evaluation and securing my first major payout.\n\n## Setting Strict Daily Risk Limits\n\nI never risked more than 1% of the account size per day. By maintaining this rule, I stayed far away from the 5% daily drawdown threshold. Risk management is key to survival.\n\n## Conclusion\n\nConsistency and strict discipline are the only paths to funded trading success."
+            },
+            "p3": {
+                "title": "Building a Professional Risk Management Mindset",
+                "excerpt": "Learn how to foster a disciplined mindset where risk parameters inform every trade, from leverage selection to stop-loss management.",
+                "content": "Professional trading is all about risk management. Without strict rules, even the best technical analysis strategy will lead to failed challenges."
+            },
+            "p4": {
+                "title": "A/B Testing Your Trading Strategies: Backtesting Best Practices",
+                "excerpt": "Master the fundamentals of backtesting with our comprehensive guide covering historical data, risk-reward ratios, and drawdown limits.",
+                "content": "Backtesting allows you to test your strategy's performance against historical data before risking registration fees on a live evaluation."
+            },
+            "p5": {
+                "title": "Understanding Drawdown Limits and Managing Daily Risk",
+                "excerpt": "Drawdown limits define your lifespan as a funded trader. Learn how to manage daily drawdown and secure your capital.",
+                "content": "Drawdown limits are the most critical rules in prop trading. Understanding the daily reset time and equity-based drawdown prevents sudden breaches."
+            },
+            "p6": {
+                "title": "Scaling Your Trading Business with Prop Firm Capital",
+                "excerpt": "As your edge grows, so does your capital need. Learn how to scale your account balance to over $1,000,000 using prop firm models.",
+                "content": "Prop firm funding provides the leverage and capital needed to turn retail day trading into a professional, scalable business."
+            }
+        },
+        "authors": {
+            "a1": {
+                "name": "Sarah Chen",
+                "role": "Head of Analytics",
+                "bio": "Sarah leads our analytics team with over 10 years of experience in product analytics and data science."
+            },
+            "a2": {
+                "name": "Marcus Rodriguez",
+                "role": "Growth Lead",
+                "bio": "Marcus specializes in growth strategies and has helped scale multiple startups from seed to Series B."
+            },
+            "a3": {
+                "name": "Emily Watson",
+                "role": "Product Manager",
+                "bio": "Emily brings a user-centered approach to product development, combining data insights with customer empathy."
+            },
+            "a4": {
+                "name": "David Park",
+                "role": "Engineering Lead",
+                "bio": "David leads our engineering team, focusing on building scalable and reliable data infrastructure."
+            }
+        },
+        "tags": {
+            "analytics": "Analytics",
+            "growth": "Growth",
+            "ab-testing": "A/B Testing",
+            "data": "Data",
+            "product": "Product",
+            "engineering": "Engineering",
+            "culture": "Culture",
+            "startup": "Startup",
+            "conversion": "Conversion",
+            "retention": "Retention"
+        }
+    }
+}
